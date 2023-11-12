@@ -1,0 +1,22 @@
+// @import 'material-icons/iconfont/material-icons.css';
+@import './transitions';
+@import 'material-icons/iconfont/material-icons.css';
+// @import 'vuesax/dist/vuesax.css'; //Vuesax styles
+
+.con-vs-dropdown-{
+  &-menu{
+    min-width: 130px;
+  }
+}
+
+.vs-dropdown--item-link{
+  font-size: 12px;
+}
+
+.vs-con-input-label, .con-select {
+  width: inherit !important;
+}
+
+.con-vs-radio{
+  justify-content: start!important;
+}
