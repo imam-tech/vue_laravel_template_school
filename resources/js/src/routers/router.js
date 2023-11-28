@@ -27,7 +27,7 @@ const router = new Router({
                     path: '',
                     component:  () => import('../pages/Index'),
                     meta: {
-                        middleware: hasLoggedIn,
+                        // middleware: hasLoggedIn,
                         pageTitle: 'Dashboard',
                     },
                 }

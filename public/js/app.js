@@ -2386,16 +2386,10 @@ var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
   return _c("div", {
+    staticClass: "bg-light min-vh-100 d-flex flex-row align-items-center"
+  }, [_c("div", {
     staticClass: "container"
-  }, [_c("div", {
-    staticClass: "row justify-content-center"
-  }, [_c("div", {
-    staticClass: "col-xl-10 col-lg-12 col-md-9"
-  }, [_c("div", {
-    staticClass: "card o-hidden border-0 shadow-lg my-5"
-  }, [_c("div", {
-    staticClass: "card-body p-0"
-  }, [_c("router-view")], 1)])])])]);
+  }, [_c("router-view")], 1)]);
 };
 var staticRenderFns = [];
 render._withStripped = true;
@@ -2418,82 +2412,907 @@ __webpack_require__.r(__webpack_exports__);
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
-  return _c("div", {
+  return _c("div", [_c("div", {
+    staticClass: "sidebar sidebar-dark sidebar-fixed",
     attrs: {
-      id: "wrapper"
+      id: "sidebar"
     }
-  }, [_c("Navbar"), _vm._v(" "), _c("div", {
-    staticClass: "d-flex flex-column",
+  }, [_c("div", {
+    staticClass: "sidebar-brand d-none d-md-flex"
+  }, [_c("svg", {
+    staticClass: "sidebar-brand-full",
     attrs: {
-      id: "content-wrapper"
+      width: "118",
+      height: "46",
+      alt: "CoreUI Logo"
     }
-  }, [_c("nav", {
-    staticClass: "navbar navbar-expand navbar-light bg-white topbar static-top shadow"
-  }, [_vm._m(0), _vm._v(" "), _c("ul", {
-    staticClass: "navbar-nav ml-auto"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "assets/brand/coreui.svg#full"
+    }
+  })]), _vm._v(" "), _c("svg", {
+    staticClass: "sidebar-brand-narrow",
+    attrs: {
+      width: "46",
+      height: "46",
+      alt: "CoreUI Logo"
+    }
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "assets/brand/coreui.svg#signet"
+    }
+  })])]), _vm._v(" "), _c("ul", {
+    staticClass: "sidebar-nav",
+    attrs: {
+      "data-coreui": "navigation",
+      "data-simplebar": ""
+    }
   }, [_c("li", {
-    staticClass: "nav-item dropdown no-arrow d-sm-none"
-  }), _vm._v(" "), _c("li", {
-    staticClass: "nav-item dropdown no-arrow mx-1"
-  }), _vm._v(" "), _c("li", {
-    staticClass: "nav-item dropdown no-arrow mx-1"
-  }), _vm._v(" "), _c("div", {
-    staticClass: "topbar-divider d-none d-sm-block"
-  }), _vm._v(" "), _c("li", {
-    staticClass: "nav-item dropdown no-arrow m-3"
-  }, [_c("LogoutBar")], 1)])]), _vm._v(" "), _c("div", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
     attrs: {
-      id: ""
+      href: "index.html"
     }
-  }, [_c("div", {
-    staticClass: "p-5"
-  }, [_c("router-view")], 1)]), _vm._v(" "), _c("footer", {
-    staticClass: "sticky-footer bg-white"
-  }, [_c("div", {
-    staticClass: "row"
-  }, [_c("div", {
-    staticClass: "col-10"
-  }, [_c("div", {
-    staticClass: "container my-auto"
-  }, [_c("div", {
-    staticClass: "copyright text-center my-auto"
-  }, [_c("span", {
-    staticStyle: {
-      "font-weight": "bold",
-      "font-size": "21px",
-      color: "black"
+  }, [_c("svg", {
+    staticClass: "nav-icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-speedometer"
     }
-  }, [_vm._v("Copyright © edutama.id " + _vm._s(new Date().getFullYear()))])])])])]), _vm._v(" "), _vm._m(1)])])], 1);
+  })]), _vm._v(" Dashboard"), _c("span", {
+    staticClass: "badge badge-sm bg-info ms-auto"
+  }, [_vm._v("NEW")])])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-title"
+  }, [_vm._v("Theme")]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "colors.html"
+    }
+  }, [_c("svg", {
+    staticClass: "nav-icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-drop"
+    }
+  })]), _vm._v(" Colors")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "typography.html"
+    }
+  }, [_c("svg", {
+    staticClass: "nav-icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-pencil"
+    }
+  })]), _vm._v(" Typography")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-title"
+  }, [_vm._v("Components")]), _vm._v(" "), _c("li", {
+    staticClass: "nav-group"
+  }, [_c("a", {
+    staticClass: "nav-link nav-group-toggle",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "nav-icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-puzzle"
+    }
+  })]), _vm._v(" Base")]), _vm._v(" "), _vm._m(0)]), _vm._v(" "), _c("li", {
+    staticClass: "nav-group"
+  }, [_c("a", {
+    staticClass: "nav-link nav-group-toggle",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "nav-icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-cursor"
+    }
+  })]), _vm._v(" Buttons")]), _vm._v(" "), _vm._m(1)]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "charts.html"
+    }
+  }, [_c("svg", {
+    staticClass: "nav-icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-chart-pie"
+    }
+  })]), _vm._v(" Charts")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-group"
+  }, [_c("a", {
+    staticClass: "nav-link nav-group-toggle",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "nav-icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-notes"
+    }
+  })]), _vm._v(" Forms")]), _vm._v(" "), _vm._m(2)]), _vm._v(" "), _c("li", {
+    staticClass: "nav-group"
+  }, [_c("a", {
+    staticClass: "nav-link nav-group-toggle",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "nav-icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-star"
+    }
+  })]), _vm._v(" Icons")]), _vm._v(" "), _vm._m(3)]), _vm._v(" "), _c("li", {
+    staticClass: "nav-group"
+  }, [_c("a", {
+    staticClass: "nav-link nav-group-toggle",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "nav-icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-bell"
+    }
+  })]), _vm._v(" Notifications")]), _vm._v(" "), _vm._m(4)]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "widgets.html"
+    }
+  }, [_c("svg", {
+    staticClass: "nav-icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-calculator"
+    }
+  })]), _vm._v(" Widgets"), _c("span", {
+    staticClass: "badge badge-sm bg-info ms-auto"
+  }, [_vm._v("NEW")])])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-divider"
+  }), _vm._v(" "), _c("li", {
+    staticClass: "nav-title"
+  }, [_vm._v("Extras")]), _vm._v(" "), _c("li", {
+    staticClass: "nav-group"
+  }, [_c("a", {
+    staticClass: "nav-link nav-group-toggle",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "nav-icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-star"
+    }
+  })]), _vm._v(" Pages")]), _vm._v(" "), _c("ul", {
+    staticClass: "nav-group-items"
+  }, [_c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "login.html",
+      target: "_top"
+    }
+  }, [_c("svg", {
+    staticClass: "nav-icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-account-logout"
+    }
+  })]), _vm._v(" Login")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "register.html",
+      target: "_top"
+    }
+  }, [_c("svg", {
+    staticClass: "nav-icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-account-logout"
+    }
+  })]), _vm._v(" Register")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "404.html",
+      target: "_top"
+    }
+  }, [_c("svg", {
+    staticClass: "nav-icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-bug"
+    }
+  })]), _vm._v(" Error 404")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "500.html",
+      target: "_top"
+    }
+  }, [_c("svg", {
+    staticClass: "nav-icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-bug"
+    }
+  })]), _vm._v(" Error 500")])])])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item mt-auto"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "https://coreui.io/docs/templates/installation/",
+      target: "_blank"
+    }
+  }, [_c("svg", {
+    staticClass: "nav-icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-description"
+    }
+  })]), _vm._v(" Docs")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link nav-link-danger",
+    attrs: {
+      href: "https://coreui.io/pro/",
+      target: "_top"
+    }
+  }, [_c("svg", {
+    staticClass: "nav-icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-layers"
+    }
+  })]), _vm._v(" Try CoreUI\n                "), _c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("PRO")])])])]), _vm._v(" "), _c("button", {
+    staticClass: "sidebar-toggler",
+    attrs: {
+      type: "button",
+      "data-coreui-toggle": "unfoldable"
+    }
+  })]), _vm._v(" "), _c("div", {
+    staticClass: "wrapper d-flex flex-column min-vh-100 bg-light"
+  }, [_c("header", {
+    staticClass: "header header-sticky mb-4"
+  }, [_c("div", {
+    staticClass: "container-fluid"
+  }, [_c("button", {
+    staticClass: "header-toggler px-md-0 me-md-3",
+    attrs: {
+      type: "button",
+      onclick: "coreui.Sidebar.getInstance(document.querySelector('#sidebar')).toggle()"
+    }
+  }, [_c("svg", {
+    staticClass: "icon icon-lg"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-menu"
+    }
+  })])]), _c("a", {
+    staticClass: "header-brand d-md-none",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    attrs: {
+      width: "118",
+      height: "46",
+      alt: "CoreUI Logo"
+    }
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "assets/brand/coreui.svg#full"
+    }
+  })])]), _vm._v(" "), _vm._m(5), _vm._v(" "), _c("ul", {
+    staticClass: "header-nav ms-auto"
+  }, [_c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "icon icon-lg"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-bell"
+    }
+  })])])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "icon icon-lg"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-list-rich"
+    }
+  })])])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "icon icon-lg"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-envelope-open"
+    }
+  })])])])]), _vm._v(" "), _c("ul", {
+    staticClass: "header-nav ms-3"
+  }, [_c("li", {
+    staticClass: "nav-item dropdown"
+  }, [_vm._m(6), _vm._v(" "), _c("div", {
+    staticClass: "dropdown-menu dropdown-menu-end pt-0"
+  }, [_vm._m(7), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "icon me-2"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-bell"
+    }
+  })]), _vm._v(" Updates"), _c("span", {
+    staticClass: "badge badge-sm bg-info ms-2"
+  }, [_vm._v("42")])]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "icon me-2"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-envelope-open"
+    }
+  })]), _vm._v(" Messages"), _c("span", {
+    staticClass: "badge badge-sm bg-success ms-2"
+  }, [_vm._v("42")])]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "icon me-2"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-task"
+    }
+  })]), _vm._v(" Tasks"), _c("span", {
+    staticClass: "badge badge-sm bg-danger ms-2"
+  }, [_vm._v("42")])]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "icon me-2"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-comment-square"
+    }
+  })]), _vm._v(" Comments"), _c("span", {
+    staticClass: "badge badge-sm bg-warning ms-2"
+  }, [_vm._v("42")])]), _vm._v(" "), _vm._m(8), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "icon me-2"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-user"
+    }
+  })]), _vm._v(" Profile")]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "icon me-2"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-settings"
+    }
+  })]), _vm._v(" Settings")]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "icon me-2"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-credit-card"
+    }
+  })]), _vm._v(" Payments"), _c("span", {
+    staticClass: "badge badge-sm bg-secondary ms-2"
+  }, [_vm._v("42")])]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "icon me-2"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-file"
+    }
+  })]), _vm._v(" Projects"), _c("span", {
+    staticClass: "badge badge-sm bg-primary ms-2"
+  }, [_vm._v("42")])]), _vm._v(" "), _c("div", {
+    staticClass: "dropdown-divider"
+  }), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "icon me-2"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-lock-locked"
+    }
+  })]), _vm._v(" Lock Account")]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_c("svg", {
+    staticClass: "icon me-2"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-account-logout"
+    }
+  })]), _vm._v(" Logout")])])])])]), _vm._v(" "), _c("div", {
+    staticClass: "header-divider"
+  }), _vm._v(" "), _vm._m(9)]), _vm._v(" "), _c("div", {
+    staticClass: "body flex-grow-1 px-3"
+  }, [_c("router-view")], 1), _vm._v(" "), _vm._m(10)])]);
 };
 var staticRenderFns = [function () {
   var _vm = this,
     _c = _vm._self._c;
-  return _c("button", {
-    staticClass: "btn btn-link d-md-none rounded-circle mr-3",
+  return _c("ul", {
+    staticClass: "nav-group-items"
+  }, [_c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
     attrs: {
-      id: "sidebarToggleTop"
+      href: "base/accordion.html"
     }
-  }, [_c("i", {
-    staticClass: "fa fa-bars"
-  })]);
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Accordion")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "base/breadcrumb.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Breadcrumb")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "base/cards.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Cards")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "base/carousel.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Carousel")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "base/collapse.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Collapse")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "base/list-group.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" List group")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "base/navs-tabs.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Navs & Tabs")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "base/pagination.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Pagination")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "base/placeholders.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Placeholders")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "base/popovers.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Popovers")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "base/progress.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Progress")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "base/scrollspy.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Scrollspy")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "base/spinners.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Spinners")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "base/tables.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Tables")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "base/tooltips.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Tooltips")])])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("ul", {
+    staticClass: "nav-group-items"
+  }, [_c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "buttons/buttons.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Buttons")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "buttons/button-group.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Buttons Group")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "buttons/dropdowns.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Dropdowns")])])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("ul", {
+    staticClass: "nav-group-items"
+  }, [_c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "forms/form-control.html"
+    }
+  }, [_vm._v(" Form Control")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "forms/select.html"
+    }
+  }, [_vm._v(" Select")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "forms/checks-radios.html"
+    }
+  }, [_vm._v(" Checks and radios")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "forms/range.html"
+    }
+  }, [_vm._v(" Range")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "forms/input-group.html"
+    }
+  }, [_vm._v(" Input group")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "forms/floating-labels.html"
+    }
+  }, [_vm._v(" Floating labels")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "forms/layout.html"
+    }
+  }, [_vm._v(" Layout")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "forms/validation.html"
+    }
+  }, [_vm._v(" Validation")])])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("ul", {
+    staticClass: "nav-group-items"
+  }, [_c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "icons/coreui-icons-free.html"
+    }
+  }, [_vm._v(" CoreUI Icons"), _c("span", {
+    staticClass: "badge badge-sm bg-success ms-auto"
+  }, [_vm._v("Free")])])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "icons/coreui-icons-brand.html"
+    }
+  }, [_vm._v(" CoreUI Icons - Brand")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "icons/coreui-icons-flag.html"
+    }
+  }, [_vm._v(" CoreUI Icons - Flag")])])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("ul", {
+    staticClass: "nav-group-items"
+  }, [_c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "notifications/alerts.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Alerts")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "notifications/badge.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Badge")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "notifications/modals.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Modals")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "notifications/toasts.html"
+    }
+  }, [_c("span", {
+    staticClass: "nav-icon"
+  }), _vm._v(" Toasts")])])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("ul", {
+    staticClass: "header-nav d-none d-md-flex"
+  }, [_c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Dashboard")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Users")])]), _vm._v(" "), _c("li", {
+    staticClass: "nav-item"
+  }, [_c("a", {
+    staticClass: "nav-link",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Settings")])])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("a", {
+    staticClass: "nav-link py-0",
+    attrs: {
+      "data-coreui-toggle": "dropdown",
+      href: "#",
+      role: "button",
+      "aria-haspopup": "true",
+      "aria-expanded": "false"
+    }
+  }, [_c("div", {
+    staticClass: "avatar avatar-md"
+  }, [_c("img", {
+    staticClass: "avatar-img",
+    attrs: {
+      src: "assets/img/avatars/8.jpg",
+      alt: "user@email.com"
+    }
+  })])]);
 }, function () {
   var _vm = this,
     _c = _vm._self._c;
   return _c("div", {
-    staticClass: "row"
+    staticClass: "dropdown-header bg-light py-2"
   }, [_c("div", {
-    staticClass: "col-2",
-    staticStyle: {
-      "text-align": "right",
-      "padding-right": "34px"
-    }
+    staticClass: "fw-semibold"
+  }, [_vm._v("Account")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "dropdown-header bg-light py-2"
   }, [_c("div", {
-    staticClass: "product-buttons fixed-bottom",
-    staticStyle: {
-      "margin-right": "20px",
-      "margin-bottom": "20px"
+    staticClass: "fw-semibold"
+  }, [_vm._v("Settings")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "container-fluid"
+  }, [_c("nav", {
+    attrs: {
+      "aria-label": "breadcrumb"
     }
-  })])]);
+  }, [_c("ol", {
+    staticClass: "breadcrumb my-0 ms-2"
+  }, [_c("li", {
+    staticClass: "breadcrumb-item"
+  }, [_c("span", [_vm._v("Home")])]), _vm._v(" "), _c("li", {
+    staticClass: "breadcrumb-item active"
+  }, [_c("span", [_vm._v("Dashboard")])])])])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("footer", {
+    staticClass: "footer"
+  }, [_c("div", [_c("a", {
+    attrs: {
+      href: "https://coreui.io"
+    }
+  }, [_vm._v("CoreUI ")]), _c("a", {
+    attrs: {
+      href: "https://coreui.io"
+    }
+  }, [_vm._v("Bootstrap Admin Template")]), _vm._v(" © 2023 creativeLabs.")]), _vm._v(" "), _c("div", {
+    staticClass: "ms-auto"
+  }, [_vm._v("Powered by "), _c("a", {
+    attrs: {
+      href: "https://coreui.io/docs/"
+    }
+  }, [_vm._v("CoreUI UI Components")])])]);
 }];
 render._withStripped = true;
 
@@ -2733,7 +3552,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_5__["default"]({
         return __webpack_require__.e(/*! import() */ "resources_js_src_pages_Index_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../pages/Index */ "./resources/js/src/pages/Index.vue"));
       },
       meta: {
-        middleware: _middleware_hasLoggedIn__WEBPACK_IMPORTED_MODULE_0__["default"],
+        // middleware: hasLoggedIn,
         pageTitle: 'Dashboard'
       }
     }]

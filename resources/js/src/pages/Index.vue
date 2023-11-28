@@ -1,497 +1,754 @@
 <template>
-    <div class="container-fluid">
-
-        <!-- Page Heading -->
-        <h1 class="h3 mb-2 text-gray-800">Tables</h1>
-
-        <!-- DataTales Example -->
-        <div class="card shadow mb-4">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-sm-6 col-lg-3">
+                <div class="card mb-4 text-white bg-primary">
+                    <div class="card-body pb-0 d-flex justify-content-between align-items-start">
+                        <div>
+                            <div class="fs-4 fw-semibold">26K <span class="fs-6 fw-normal">(-12.4%
+                                            <svg class="icon">
+                                              <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-arrow-bottom"></use>
+                                            </svg>)</span>
+                            </div>
+                            <div>Users</div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-transparent text-white p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <svg class="icon">
+                                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                                </svg>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+                        </div>
+                    </div>
+                    <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
+                        <canvas class="chart" id="card-chart1" height="70"></canvas>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-->
+            <div class="col-sm-6 col-lg-3">
+                <div class="card mb-4 text-white bg-info">
+                    <div class="card-body pb-0 d-flex justify-content-between align-items-start">
+                        <div>
+                            <div class="fs-4 fw-semibold">$6.200 <span class="fs-6 fw-normal">(40.9%
+                        <svg class="icon">
+                          <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-arrow-top"></use>
+                        </svg>)</span></div>
+                            <div>Income</div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-transparent text-white p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <svg class="icon">
+                                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                                </svg>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+                        </div>
+                    </div>
+                    <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
+                        <canvas class="chart" id="card-chart2" height="70"></canvas>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-->
+            <div class="col-sm-6 col-lg-3">
+                <div class="card mb-4 text-white bg-warning">
+                    <div class="card-body pb-0 d-flex justify-content-between align-items-start">
+                        <div>
+                            <div class="fs-4 fw-semibold">2.49% <span class="fs-6 fw-normal">(84.7%
+                        <svg class="icon">
+                          <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-arrow-top"></use>
+                        </svg>)</span></div>
+                            <div>Conversion Rate</div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-transparent text-white p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <svg class="icon">
+                                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                                </svg>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+                        </div>
+                    </div>
+                    <div class="c-chart-wrapper mt-3" style="height:70px;">
+                        <canvas class="chart" id="card-chart3" height="70"></canvas>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-->
+            <div class="col-sm-6 col-lg-3">
+                <div class="card mb-4 text-white bg-danger">
+                    <div class="card-body pb-0 d-flex justify-content-between align-items-start">
+                        <div>
+                            <div class="fs-4 fw-semibold">44K <span class="fs-6 fw-normal">(-23.6%
+                        <svg class="icon">
+                          <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-arrow-bottom"></use>
+                        </svg>)</span></div>
+                            <div>Sessions</div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-transparent text-white p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <svg class="icon">
+                                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                                </svg>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div>
+                        </div>
+                    </div>
+                    <div class="c-chart-wrapper mt-3 mx-3" style="height:70px;">
+                        <canvas class="chart" id="card-chart4" height="70"></canvas>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-->
+        </div>
+        <!-- /.row-->
+        <div class="card mb-4">
             <div class="card-body">
-                <div class="table-responsive">
-                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                        <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Position</th>
-                            <th>Office</th>
-                            <th>Age</th>
-                            <th>Start date</th>
-                            <th>Salary</th>
-                        </tr>
-                        </thead>
-                        <tfoot>
-                        <tr>
-                            <th>Name</th>
-                            <th>Position</th>
-                            <th>Office</th>
-                            <th>Age</th>
-                            <th>Start date</th>
-                            <th>Salary</th>
-                        </tr>
-                        </tfoot>
-                        <tbody>
-                        <tr>
-                            <td>Tiger Nixon</td>
-                            <td>System Architect</td>
-                            <td>Edinburgh</td>
-                            <td>61</td>
-                            <td>2011/04/25</td>
-                            <td>$320,800</td>
-                        </tr>
-                        <tr>
-                            <td>Garrett Winters</td>
-                            <td>Accountant</td>
-                            <td>Tokyo</td>
-                            <td>63</td>
-                            <td>2011/07/25</td>
-                            <td>$170,750</td>
-                        </tr>
-                        <tr>
-                            <td>Ashton Cox</td>
-                            <td>Junior Technical Author</td>
-                            <td>San Francisco</td>
-                            <td>66</td>
-                            <td>2009/01/12</td>
-                            <td>$86,000</td>
-                        </tr>
-                        <tr>
-                            <td>Cedric Kelly</td>
-                            <td>Senior Javascript Developer</td>
-                            <td>Edinburgh</td>
-                            <td>22</td>
-                            <td>2012/03/29</td>
-                            <td>$433,060</td>
-                        </tr>
-                        <tr>
-                            <td>Airi Satou</td>
-                            <td>Accountant</td>
-                            <td>Tokyo</td>
-                            <td>33</td>
-                            <td>2008/11/28</td>
-                            <td>$162,700</td>
-                        </tr>
-                        <tr>
-                            <td>Brielle Williamson</td>
-                            <td>Integration Specialist</td>
-                            <td>New York</td>
-                            <td>61</td>
-                            <td>2012/12/02</td>
-                            <td>$372,000</td>
-                        </tr>
-                        <tr>
-                            <td>Herrod Chandler</td>
-                            <td>Sales Assistant</td>
-                            <td>San Francisco</td>
-                            <td>59</td>
-                            <td>2012/08/06</td>
-                            <td>$137,500</td>
-                        </tr>
-                        <tr>
-                            <td>Rhona Davidson</td>
-                            <td>Integration Specialist</td>
-                            <td>Tokyo</td>
-                            <td>55</td>
-                            <td>2010/10/14</td>
-                            <td>$327,900</td>
-                        </tr>
-                        <tr>
-                            <td>Colleen Hurst</td>
-                            <td>Javascript Developer</td>
-                            <td>San Francisco</td>
-                            <td>39</td>
-                            <td>2009/09/15</td>
-                            <td>$205,500</td>
-                        </tr>
-                        <tr>
-                            <td>Sonya Frost</td>
-                            <td>Software Engineer</td>
-                            <td>Edinburgh</td>
-                            <td>23</td>
-                            <td>2008/12/13</td>
-                            <td>$103,600</td>
-                        </tr>
-                        <tr>
-                            <td>Jena Gaines</td>
-                            <td>Office Manager</td>
-                            <td>London</td>
-                            <td>30</td>
-                            <td>2008/12/19</td>
-                            <td>$90,560</td>
-                        </tr>
-                        <tr>
-                            <td>Quinn Flynn</td>
-                            <td>Support Lead</td>
-                            <td>Edinburgh</td>
-                            <td>22</td>
-                            <td>2013/03/03</td>
-                            <td>$342,000</td>
-                        </tr>
-                        <tr>
-                            <td>Charde Marshall</td>
-                            <td>Regional Director</td>
-                            <td>San Francisco</td>
-                            <td>36</td>
-                            <td>2008/10/16</td>
-                            <td>$470,600</td>
-                        </tr>
-                        <tr>
-                            <td>Haley Kennedy</td>
-                            <td>Senior Marketing Designer</td>
-                            <td>London</td>
-                            <td>43</td>
-                            <td>2012/12/18</td>
-                            <td>$313,500</td>
-                        </tr>
-                        <tr>
-                            <td>Tatyana Fitzpatrick</td>
-                            <td>Regional Director</td>
-                            <td>London</td>
-                            <td>19</td>
-                            <td>2010/03/17</td>
-                            <td>$385,750</td>
-                        </tr>
-                        <tr>
-                            <td>Michael Silva</td>
-                            <td>Marketing Designer</td>
-                            <td>London</td>
-                            <td>66</td>
-                            <td>2012/11/27</td>
-                            <td>$198,500</td>
-                        </tr>
-                        <tr>
-                            <td>Paul Byrd</td>
-                            <td>Chief Financial Officer (CFO)</td>
-                            <td>New York</td>
-                            <td>64</td>
-                            <td>2010/06/09</td>
-                            <td>$725,000</td>
-                        </tr>
-                        <tr>
-                            <td>Gloria Little</td>
-                            <td>Systems Administrator</td>
-                            <td>New York</td>
-                            <td>59</td>
-                            <td>2009/04/10</td>
-                            <td>$237,500</td>
-                        </tr>
-                        <tr>
-                            <td>Bradley Greer</td>
-                            <td>Software Engineer</td>
-                            <td>London</td>
-                            <td>41</td>
-                            <td>2012/10/13</td>
-                            <td>$132,000</td>
-                        </tr>
-                        <tr>
-                            <td>Dai Rios</td>
-                            <td>Personnel Lead</td>
-                            <td>Edinburgh</td>
-                            <td>35</td>
-                            <td>2012/09/26</td>
-                            <td>$217,500</td>
-                        </tr>
-                        <tr>
-                            <td>Jenette Caldwell</td>
-                            <td>Development Lead</td>
-                            <td>New York</td>
-                            <td>30</td>
-                            <td>2011/09/03</td>
-                            <td>$345,000</td>
-                        </tr>
-                        <tr>
-                            <td>Yuri Berry</td>
-                            <td>Chief Marketing Officer (CMO)</td>
-                            <td>New York</td>
-                            <td>40</td>
-                            <td>2009/06/25</td>
-                            <td>$675,000</td>
-                        </tr>
-                        <tr>
-                            <td>Caesar Vance</td>
-                            <td>Pre-Sales Support</td>
-                            <td>New York</td>
-                            <td>21</td>
-                            <td>2011/12/12</td>
-                            <td>$106,450</td>
-                        </tr>
-                        <tr>
-                            <td>Doris Wilder</td>
-                            <td>Sales Assistant</td>
-                            <td>Sidney</td>
-                            <td>23</td>
-                            <td>2010/09/20</td>
-                            <td>$85,600</td>
-                        </tr>
-                        <tr>
-                            <td>Angelica Ramos</td>
-                            <td>Chief Executive Officer (CEO)</td>
-                            <td>London</td>
-                            <td>47</td>
-                            <td>2009/10/09</td>
-                            <td>$1,200,000</td>
-                        </tr>
-                        <tr>
-                            <td>Gavin Joyce</td>
-                            <td>Developer</td>
-                            <td>Edinburgh</td>
-                            <td>42</td>
-                            <td>2010/12/22</td>
-                            <td>$92,575</td>
-                        </tr>
-                        <tr>
-                            <td>Jennifer Chang</td>
-                            <td>Regional Director</td>
-                            <td>Singapore</td>
-                            <td>28</td>
-                            <td>2010/11/14</td>
-                            <td>$357,650</td>
-                        </tr>
-                        <tr>
-                            <td>Brenden Wagner</td>
-                            <td>Software Engineer</td>
-                            <td>San Francisco</td>
-                            <td>28</td>
-                            <td>2011/06/07</td>
-                            <td>$206,850</td>
-                        </tr>
-                        <tr>
-                            <td>Fiona Green</td>
-                            <td>Chief Operating Officer (COO)</td>
-                            <td>San Francisco</td>
-                            <td>48</td>
-                            <td>2010/03/11</td>
-                            <td>$850,000</td>
-                        </tr>
-                        <tr>
-                            <td>Shou Itou</td>
-                            <td>Regional Marketing</td>
-                            <td>Tokyo</td>
-                            <td>20</td>
-                            <td>2011/08/14</td>
-                            <td>$163,000</td>
-                        </tr>
-                        <tr>
-                            <td>Michelle House</td>
-                            <td>Integration Specialist</td>
-                            <td>Sidney</td>
-                            <td>37</td>
-                            <td>2011/06/02</td>
-                            <td>$95,400</td>
-                        </tr>
-                        <tr>
-                            <td>Suki Burks</td>
-                            <td>Developer</td>
-                            <td>London</td>
-                            <td>53</td>
-                            <td>2009/10/22</td>
-                            <td>$114,500</td>
-                        </tr>
-                        <tr>
-                            <td>Prescott Bartlett</td>
-                            <td>Technical Author</td>
-                            <td>London</td>
-                            <td>27</td>
-                            <td>2011/05/07</td>
-                            <td>$145,000</td>
-                        </tr>
-                        <tr>
-                            <td>Gavin Cortez</td>
-                            <td>Team Leader</td>
-                            <td>San Francisco</td>
-                            <td>22</td>
-                            <td>2008/10/26</td>
-                            <td>$235,500</td>
-                        </tr>
-                        <tr>
-                            <td>Martena Mccray</td>
-                            <td>Post-Sales support</td>
-                            <td>Edinburgh</td>
-                            <td>46</td>
-                            <td>2011/03/09</td>
-                            <td>$324,050</td>
-                        </tr>
-                        <tr>
-                            <td>Unity Butler</td>
-                            <td>Marketing Designer</td>
-                            <td>San Francisco</td>
-                            <td>47</td>
-                            <td>2009/12/09</td>
-                            <td>$85,675</td>
-                        </tr>
-                        <tr>
-                            <td>Howard Hatfield</td>
-                            <td>Office Manager</td>
-                            <td>San Francisco</td>
-                            <td>51</td>
-                            <td>2008/12/16</td>
-                            <td>$164,500</td>
-                        </tr>
-                        <tr>
-                            <td>Hope Fuentes</td>
-                            <td>Secretary</td>
-                            <td>San Francisco</td>
-                            <td>41</td>
-                            <td>2010/02/12</td>
-                            <td>$109,850</td>
-                        </tr>
-                        <tr>
-                            <td>Vivian Harrell</td>
-                            <td>Financial Controller</td>
-                            <td>San Francisco</td>
-                            <td>62</td>
-                            <td>2009/02/14</td>
-                            <td>$452,500</td>
-                        </tr>
-                        <tr>
-                            <td>Timothy Mooney</td>
-                            <td>Office Manager</td>
-                            <td>London</td>
-                            <td>37</td>
-                            <td>2008/12/11</td>
-                            <td>$136,200</td>
-                        </tr>
-                        <tr>
-                            <td>Jackson Bradshaw</td>
-                            <td>Director</td>
-                            <td>New York</td>
-                            <td>65</td>
-                            <td>2008/09/26</td>
-                            <td>$645,750</td>
-                        </tr>
-                        <tr>
-                            <td>Olivia Liang</td>
-                            <td>Support Engineer</td>
-                            <td>Singapore</td>
-                            <td>64</td>
-                            <td>2011/02/03</td>
-                            <td>$234,500</td>
-                        </tr>
-                        <tr>
-                            <td>Bruno Nash</td>
-                            <td>Software Engineer</td>
-                            <td>London</td>
-                            <td>38</td>
-                            <td>2011/05/03</td>
-                            <td>$163,500</td>
-                        </tr>
-                        <tr>
-                            <td>Sakura Yamamoto</td>
-                            <td>Support Engineer</td>
-                            <td>Tokyo</td>
-                            <td>37</td>
-                            <td>2009/08/19</td>
-                            <td>$139,575</td>
-                        </tr>
-                        <tr>
-                            <td>Thor Walton</td>
-                            <td>Developer</td>
-                            <td>New York</td>
-                            <td>61</td>
-                            <td>2013/08/11</td>
-                            <td>$98,540</td>
-                        </tr>
-                        <tr>
-                            <td>Finn Camacho</td>
-                            <td>Support Engineer</td>
-                            <td>San Francisco</td>
-                            <td>47</td>
-                            <td>2009/07/07</td>
-                            <td>$87,500</td>
-                        </tr>
-                        <tr>
-                            <td>Serge Baldwin</td>
-                            <td>Data Coordinator</td>
-                            <td>Singapore</td>
-                            <td>64</td>
-                            <td>2012/04/09</td>
-                            <td>$138,575</td>
-                        </tr>
-                        <tr>
-                            <td>Zenaida Frank</td>
-                            <td>Software Engineer</td>
-                            <td>New York</td>
-                            <td>63</td>
-                            <td>2010/01/04</td>
-                            <td>$125,250</td>
-                        </tr>
-                        <tr>
-                            <td>Zorita Serrano</td>
-                            <td>Software Engineer</td>
-                            <td>San Francisco</td>
-                            <td>56</td>
-                            <td>2012/06/01</td>
-                            <td>$115,000</td>
-                        </tr>
-                        <tr>
-                            <td>Jennifer Acosta</td>
-                            <td>Junior Javascript Developer</td>
-                            <td>Edinburgh</td>
-                            <td>43</td>
-                            <td>2013/02/01</td>
-                            <td>$75,650</td>
-                        </tr>
-                        <tr>
-                            <td>Cara Stevens</td>
-                            <td>Sales Assistant</td>
-                            <td>New York</td>
-                            <td>46</td>
-                            <td>2011/12/06</td>
-                            <td>$145,600</td>
-                        </tr>
-                        <tr>
-                            <td>Hermione Butler</td>
-                            <td>Regional Director</td>
-                            <td>London</td>
-                            <td>47</td>
-                            <td>2011/03/21</td>
-                            <td>$356,250</td>
-                        </tr>
-                        <tr>
-                            <td>Lael Greer</td>
-                            <td>Systems Administrator</td>
-                            <td>London</td>
-                            <td>21</td>
-                            <td>2009/02/27</td>
-                            <td>$103,500</td>
-                        </tr>
-                        <tr>
-                            <td>Jonas Alexander</td>
-                            <td>Developer</td>
-                            <td>San Francisco</td>
-                            <td>30</td>
-                            <td>2010/07/14</td>
-                            <td>$86,500</td>
-                        </tr>
-                        <tr>
-                            <td>Shad Decker</td>
-                            <td>Regional Director</td>
-                            <td>Edinburgh</td>
-                            <td>51</td>
-                            <td>2008/11/13</td>
-                            <td>$183,000</td>
-                        </tr>
-                        <tr>
-                            <td>Michael Bruce</td>
-                            <td>Javascript Developer</td>
-                            <td>Singapore</td>
-                            <td>29</td>
-                            <td>2011/06/27</td>
-                            <td>$183,000</td>
-                        </tr>
-                        <tr>
-                            <td>Donna Snider</td>
-                            <td>Customer Support</td>
-                            <td>New York</td>
-                            <td>27</td>
-                            <td>2011/01/25</td>
-                            <td>$112,000</td>
-                        </tr>
-                        </tbody>
-                    </table>
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h4 class="card-title mb-0">Traffic</h4>
+                        <div class="small text-medium-emphasis">January - July 2022</div>
+                    </div>
+                    <div class="btn-toolbar d-none d-md-block" role="toolbar" aria-label="Toolbar with buttons">
+                        <div class="btn-group btn-group-toggle mx-3" data-coreui-toggle="buttons">
+                            <input class="btn-check" id="option1" type="radio" name="options" autocomplete="off">
+                            <label class="btn btn-outline-secondary"> Day</label>
+                            <input class="btn-check" id="option2" type="radio" name="options" autocomplete="off" checked="">
+                            <label class="btn btn-outline-secondary active"> Month</label>
+                            <input class="btn-check" id="option3" type="radio" name="options" autocomplete="off">
+                            <label class="btn btn-outline-secondary"> Year</label>
+                        </div>
+                        <button class="btn btn-primary" type="button">
+                            <svg class="icon">
+                                <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-cloud-download"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="c-chart-wrapper" style="height:300px;margin-top:40px;">
+                    <canvas class="chart" id="main-chart" height="300"></canvas>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="row row-cols-1 row-cols-md-5 text-center">
+                    <div class="col mb-sm-2 mb-0">
+                        <div class="text-medium-emphasis">Visits</div>
+                        <div class="fw-semibold">29.703 Users (40%)</div>
+                        <div class="progress progress-thin mt-2">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="col mb-sm-2 mb-0">
+                        <div class="text-medium-emphasis">Unique</div>
+                        <div class="fw-semibold">24.093 Users (20%)</div>
+                        <div class="progress progress-thin mt-2">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="col mb-sm-2 mb-0">
+                        <div class="text-medium-emphasis">Pageviews</div>
+                        <div class="fw-semibold">78.706 Views (60%)</div>
+                        <div class="progress progress-thin mt-2">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="col mb-sm-2 mb-0">
+                        <div class="text-medium-emphasis">New Users</div>
+                        <div class="fw-semibold">22.123 Users (80%)</div>
+                        <div class="progress progress-thin mt-2">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="col mb-sm-2 mb-0">
+                        <div class="text-medium-emphasis">Bounce Rate</div>
+                        <div class="fw-semibold">40.15%</div>
+                        <div class="progress progress-thin mt-2">
+                            <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
+        <!-- /.card.mb-4-->
+        <div class="row">
+            <div class="col-sm-6 col-lg-4">
+                <div class="card mb-4" style="--cui-card-cap-bg: #3b5998">
+                    <div class="card-header position-relative d-flex justify-content-center align-items-center">
+                        <svg class="icon icon-3xl text-white my-4">
+                            <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-facebook-f"></use>
+                        </svg>
+                        <div class="chart-wrapper position-absolute top-0 start-0 w-100 h-100">
+                            <canvas id="social-box-chart-1" height="90"></canvas>
+                        </div>
+                    </div>
+                    <div class="card-body row text-center">
+                        <div class="col">
+                            <div class="fs-5 fw-semibold">89k</div>
+                            <div class="text-uppercase text-medium-emphasis small">friends</div>
+                        </div>
+                        <div class="vr"></div>
+                        <div class="col">
+                            <div class="fs-5 fw-semibold">459</div>
+                            <div class="text-uppercase text-medium-emphasis small">feeds</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-->
+            <div class="col-sm-6 col-lg-4">
+                <div class="card mb-4" style="--cui-card-cap-bg: #00aced">
+                    <div class="card-header position-relative d-flex justify-content-center align-items-center">
+                        <svg class="icon icon-3xl text-white my-4">
+                            <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-twitter"></use>
+                        </svg>
+                        <div class="chart-wrapper position-absolute top-0 start-0 w-100 h-100">
+                            <canvas id="social-box-chart-2" height="90"></canvas>
+                        </div>
+                    </div>
+                    <div class="card-body row text-center">
+                        <div class="col">
+                            <div class="fs-5 fw-semibold">973k</div>
+                            <div class="text-uppercase text-medium-emphasis small">followers</div>
+                        </div>
+                        <div class="vr"></div>
+                        <div class="col">
+                            <div class="fs-5 fw-semibold">1.792</div>
+                            <div class="text-uppercase text-medium-emphasis small">tweets</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-->
+            <div class="col-sm-6 col-lg-4">
+                <div class="card mb-4" style="--cui-card-cap-bg: #4875b4">
+                    <div class="card-header position-relative d-flex justify-content-center align-items-center">
+                        <svg class="icon icon-3xl text-white my-4">
+                            <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-linkedin"></use>
+                        </svg>
+                        <div class="chart-wrapper position-absolute top-0 start-0 w-100 h-100">
+                            <canvas id="social-box-chart-3" height="90"></canvas>
+                        </div>
+                    </div>
+                    <div class="card-body row text-center">
+                        <div class="col">
+                            <div class="fs-5 fw-semibold">500+</div>
+                            <div class="text-uppercase text-medium-emphasis small">contacts</div>
+                        </div>
+                        <div class="vr"></div>
+                        <div class="col">
+                            <div class="fs-5 fw-semibold">292</div>
+                            <div class="text-uppercase text-medium-emphasis small">feeds</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-->
+        </div>
+        <!-- /.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mb-4">
+                    <div class="card-header">Traffic &amp; Sales</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="border-start border-start-4 border-start-info px-3 mb-3"><small class="text-medium-emphasis">New Clients</small>
+                                            <div class="fs-5 fw-semibold">9.123</div>
+                                        </div>
+                                    </div>
+                                    <!-- /.col-->
+                                    <div class="col-6">
+                                        <div class="border-start border-start-4 border-start-danger px-3 mb-3"><small class="text-medium-emphasis">Recuring Clients</small>
+                                            <div class="fs-5 fw-semibold">22.643</div>
+                                        </div>
+                                    </div>
+                                    <!-- /.col-->
+                                </div>
+                                <!-- /.row-->
+                                <hr class="mt-0">
+                                <div class="progress-group mb-4">
+                                    <div class="progress-group-prepend"><span class="text-medium-emphasis small">Monday</span></div>
+                                    <div class="progress-group-bars">
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 34%" aria-valuenow="34" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress-group mb-4">
+                                    <div class="progress-group-prepend"><span class="text-medium-emphasis small">Tuesday</span></div>
+                                    <div class="progress-group-bars">
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 56%" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 94%" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress-group mb-4">
+                                    <div class="progress-group-prepend"><span class="text-medium-emphasis small">Wednesday</span></div>
+                                    <div class="progress-group-bars">
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 67%" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress-group mb-4">
+                                    <div class="progress-group-prepend"><span class="text-medium-emphasis small">Thursday</span></div>
+                                    <div class="progress-group-bars">
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 43%" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 91%" aria-valuenow="91" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress-group mb-4">
+                                    <div class="progress-group-prepend"><span class="text-medium-emphasis small">Friday</span></div>
+                                    <div class="progress-group-bars">
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 22%" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 73%" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress-group mb-4">
+                                    <div class="progress-group-prepend"><span class="text-medium-emphasis small">Saturday</span></div>
+                                    <div class="progress-group-bars">
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 53%" aria-valuenow="53" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress-group mb-4">
+                                    <div class="progress-group-prepend"><span class="text-medium-emphasis small">Sunday</span></div>
+                                    <div class="progress-group-bars">
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 9%" aria-valuenow="9" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 69%" aria-valuenow="69" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.col-->
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="border-start border-start-4 border-start-warning px-3 mb-3"><small class="text-medium-emphasis">Pageviews</small>
+                                            <div class="fs-5 fw-semibold">78.623</div>
+                                        </div>
+                                    </div>
+                                    <!-- /.col-->
+                                    <div class="col-6">
+                                        <div class="border-start border-start-4 border-start-success px-3 mb-3"><small class="text-medium-emphasis">Organic</small>
+                                            <div class="fs-5 fw-semibold">49.123</div>
+                                        </div>
+                                    </div>
+                                    <!-- /.col-->
+                                </div>
+                                <!-- /.row-->
+                                <hr class="mt-0">
+                                <div class="progress-group">
+                                    <div class="progress-group-header">
+                                        <svg class="icon icon-lg me-2">
+                                            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-user"></use>
+                                        </svg>
+                                        <div>Male</div>
+                                        <div class="ms-auto fw-semibold">43%</div>
+                                    </div>
+                                    <div class="progress-group-bars">
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 43%" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress-group mb-5">
+                                    <div class="progress-group-header">
+                                        <svg class="icon icon-lg me-2">
+                                            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-user-female"></use>
+                                        </svg>
+                                        <div>Female</div>
+                                        <div class="ms-auto fw-semibold">37%</div>
+                                    </div>
+                                    <div class="progress-group-bars">
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 43%" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress-group">
+                                    <div class="progress-group-header">
+                                        <svg class="icon icon-lg me-2">
+                                            <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-google"></use>
+                                        </svg>
+                                        <div>Organic Search</div>
+                                        <div class="ms-auto fw-semibold me-2">191.235</div>
+                                        <div class="text-medium-emphasis small">(56%)</div>
+                                    </div>
+                                    <div class="progress-group-bars">
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 56%" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress-group">
+                                    <div class="progress-group-header">
+                                        <svg class="icon icon-lg me-2">
+                                            <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-facebook-f"></use>
+                                        </svg>
+                                        <div>Facebook</div>
+                                        <div class="ms-auto fw-semibold me-2">51.223</div>
+                                        <div class="text-medium-emphasis small">(15%)</div>
+                                    </div>
+                                    <div class="progress-group-bars">
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress-group">
+                                    <div class="progress-group-header">
+                                        <svg class="icon icon-lg me-2">
+                                            <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-twitter"></use>
+                                        </svg>
+                                        <div>Twitter</div>
+                                        <div class="ms-auto fw-semibold me-2">37.564</div>
+                                        <div class="text-medium-emphasis small">(11%)</div>
+                                    </div>
+                                    <div class="progress-group-bars">
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 11%" aria-valuenow="11" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress-group">
+                                    <div class="progress-group-header">
+                                        <svg class="icon icon-lg me-2">
+                                            <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-linkedin"></use>
+                                        </svg>
+                                        <div>LinkedIn</div>
+                                        <div class="ms-auto fw-semibold me-2">27.319</div>
+                                        <div class="text-medium-emphasis small">(8%)</div>
+                                    </div>
+                                    <div class="progress-group-bars">
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 8%" aria-valuenow="8" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.col-->
+                        </div>
+                        <!-- /.row--><br>
+                        <div class="table-responsive">
+                            <table class="table border mb-0">
+                                <thead class="table-light fw-semibold">
+                                <tr class="align-middle">
+                                    <th class="text-center">
+                                        <svg class="icon">
+                                            <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-people"></use>
+                                        </svg>
+                                    </th>
+                                    <th>User</th>
+                                    <th class="text-center">Country</th>
+                                    <th>Usage</th>
+                                    <th class="text-center">Payment Method</th>
+                                    <th>Activity</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr class="align-middle">
+                                    <td class="text-center">
+                                        <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/1.jpg" alt="user@email.com"><span class="avatar-status bg-success"></span></div>
+                                    </td>
+                                    <td>
+                                        <div>Yiorgos Avraamu</div>
+                                        <div class="small text-medium-emphasis"><span>New</span> | Registered: Jan 1, 2020</div>
+                                    </td>
+                                    <td class="text-center">
+                                        <svg class="icon icon-xl">
+                                            <use xlink:href="vendors/@coreui/icons/svg/flag.svg#cif-us"></use>
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <div class="clearfix">
+                                            <div class="float-start">
+                                                <div class="fw-semibold">50%</div>
+                                            </div>
+                                            <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020 - Jul 10, 2020</small></div>
+                                        </div>
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <svg class="icon icon-xl">
+                                            <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-mastercard"></use>
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <div class="small text-medium-emphasis">Last login</div>
+                                        <div class="fw-semibold">10 sec ago</div>
+                                    </td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-transparent p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <svg class="icon">
+                                                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                                                </svg>
+                                            </button>
+                                            <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="align-middle">
+                                    <td class="text-center">
+                                        <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/2.jpg" alt="user@email.com"><span class="avatar-status bg-danger"></span></div>
+                                    </td>
+                                    <td>
+                                        <div>Avram Tarasios</div>
+                                        <div class="small text-medium-emphasis"><span>Recurring</span> | Registered: Jan 1, 2020</div>
+                                    </td>
+                                    <td class="text-center">
+                                        <svg class="icon icon-xl">
+                                            <use xlink:href="vendors/@coreui/icons/svg/flag.svg#cif-br"></use>
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <div class="clearfix">
+                                            <div class="float-start">
+                                                <div class="fw-semibold">10%</div>
+                                            </div>
+                                            <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020 - Jul 10, 2020</small></div>
+                                        </div>
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <svg class="icon icon-xl">
+                                            <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-visa"></use>
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <div class="small text-medium-emphasis">Last login</div>
+                                        <div class="fw-semibold">5 minutes ago</div>
+                                    </td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-transparent p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <svg class="icon">
+                                                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                                                </svg>
+                                            </button>
+                                            <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="align-middle">
+                                    <td class="text-center">
+                                        <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/3.jpg" alt="user@email.com"><span class="avatar-status bg-warning"></span></div>
+                                    </td>
+                                    <td>
+                                        <div>Quintin Ed</div>
+                                        <div class="small text-medium-emphasis"><span>New</span> | Registered: Jan 1, 2020</div>
+                                    </td>
+                                    <td class="text-center">
+                                        <svg class="icon icon-xl">
+                                            <use xlink:href="vendors/@coreui/icons/svg/flag.svg#cif-in"></use>
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <div class="clearfix">
+                                            <div class="float-start">
+                                                <div class="fw-semibold">74%</div>
+                                            </div>
+                                            <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020 - Jul 10, 2020</small></div>
+                                        </div>
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 74%" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <svg class="icon icon-xl">
+                                            <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-stripe"></use>
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <div class="small text-medium-emphasis">Last login</div>
+                                        <div class="fw-semibold">1 hour ago</div>
+                                    </td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-transparent p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <svg class="icon">
+                                                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                                                </svg>
+                                            </button>
+                                            <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="align-middle">
+                                    <td class="text-center">
+                                        <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/4.jpg" alt="user@email.com"><span class="avatar-status bg-secondary"></span></div>
+                                    </td>
+                                    <td>
+                                        <div>Enéas Kwadwo</div>
+                                        <div class="small text-medium-emphasis"><span>New</span> | Registered: Jan 1, 2020</div>
+                                    </td>
+                                    <td class="text-center">
+                                        <svg class="icon icon-xl">
+                                            <use xlink:href="vendors/@coreui/icons/svg/flag.svg#cif-fr"></use>
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <div class="clearfix">
+                                            <div class="float-start">
+                                                <div class="fw-semibold">98%</div>
+                                            </div>
+                                            <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020 - Jul 10, 2020</small></div>
+                                        </div>
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <svg class="icon icon-xl">
+                                            <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-paypal"></use>
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <div class="small text-medium-emphasis">Last login</div>
+                                        <div class="fw-semibold">Last month</div>
+                                    </td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-transparent p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <svg class="icon">
+                                                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                                                </svg>
+                                            </button>
+                                            <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="align-middle">
+                                    <td class="text-center">
+                                        <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/5.jpg" alt="user@email.com"><span class="avatar-status bg-success"></span></div>
+                                    </td>
+                                    <td>
+                                        <div>Agapetus Tadeáš</div>
+                                        <div class="small text-medium-emphasis"><span>New</span> | Registered: Jan 1, 2020</div>
+                                    </td>
+                                    <td class="text-center">
+                                        <svg class="icon icon-xl">
+                                            <use xlink:href="vendors/@coreui/icons/svg/flag.svg#cif-es"></use>
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <div class="clearfix">
+                                            <div class="float-start">
+                                                <div class="fw-semibold">22%</div>
+                                            </div>
+                                            <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020 - Jul 10, 2020</small></div>
+                                        </div>
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-info" role="progressbar" style="width: 22%" aria-valuenow="22" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <svg class="icon icon-xl">
+                                            <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-apple-pay"></use>
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <div class="small text-medium-emphasis">Last login</div>
+                                        <div class="fw-semibold">Last week</div>
+                                    </td>
+                                    <td>
+                                        <div class="dropdown dropup">
+                                            <button class="btn btn-transparent p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <svg class="icon">
+                                                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                                                </svg>
+                                            </button>
+                                            <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="align-middle">
+                                    <td class="text-center">
+                                        <div class="avatar avatar-md"><img class="avatar-img" src="assets/img/avatars/6.jpg" alt="user@email.com"><span class="avatar-status bg-danger"></span></div>
+                                    </td>
+                                    <td>
+                                        <div>Friderik Dávid</div>
+                                        <div class="small text-medium-emphasis"><span>New</span> | Registered: Jan 1, 2020</div>
+                                    </td>
+                                    <td class="text-center">
+                                        <svg class="icon icon-xl">
+                                            <use xlink:href="vendors/@coreui/icons/svg/flag.svg#cif-pl"></use>
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <div class="clearfix">
+                                            <div class="float-start">
+                                                <div class="fw-semibold">43%</div>
+                                            </div>
+                                            <div class="float-end"><small class="text-medium-emphasis">Jun 11, 2020 - Jul 10, 2020</small></div>
+                                        </div>
+                                        <div class="progress progress-thin">
+                                            <div class="progress-bar bg-success" role="progressbar" style="width: 43%" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center">
+                                        <svg class="icon icon-xl">
+                                            <use xlink:href="vendors/@coreui/icons/svg/brand.svg#cib-cc-amex"></use>
+                                        </svg>
+                                    </td>
+                                    <td>
+                                        <div class="small text-medium-emphasis">Last login</div>
+                                        <div class="fw-semibold">Yesterday</div>
+                                    </td>
+                                    <td>
+                                        <div class="dropdown dropup">
+                                            <button class="btn btn-transparent p-0" type="button" data-coreui-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <svg class="icon">
+                                                    <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-options"></use>
+                                                </svg>
+                                            </button>
+                                            <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">Info</a><a class="dropdown-item" href="#">Edit</a><a class="dropdown-item text-danger" href="#">Delete</a></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-->
+        </div>
+        <!-- /.row-->
     </div>
     <!-- /.container-fluid -->
 </template>

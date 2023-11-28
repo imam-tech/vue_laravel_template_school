@@ -34,29 +34,1802 @@ __webpack_require__.r(__webpack_exports__);
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
-  return _vm._m(0);
+  return _c("div", {
+    staticClass: "container-lg"
+  }, [_c("div", {
+    staticClass: "row"
+  }, [_c("div", {
+    staticClass: "col-sm-6 col-lg-3"
+  }, [_c("div", {
+    staticClass: "card mb-4 text-white bg-primary"
+  }, [_c("div", {
+    staticClass: "card-body pb-0 d-flex justify-content-between align-items-start"
+  }, [_c("div", [_c("div", {
+    staticClass: "fs-4 fw-semibold"
+  }, [_vm._v("26K "), _c("span", {
+    staticClass: "fs-6 fw-normal"
+  }, [_vm._v("(-12.4%\n                                        "), _c("svg", {
+    staticClass: "icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-arrow-bottom"
+    }
+  })]), _vm._v(")")])]), _vm._v(" "), _c("div", [_vm._v("Users")])]), _vm._v(" "), _c("div", {
+    staticClass: "dropdown"
+  }, [_c("button", {
+    staticClass: "btn btn-transparent text-white p-0",
+    attrs: {
+      type: "button",
+      "data-coreui-toggle": "dropdown",
+      "aria-haspopup": "true",
+      "aria-expanded": "false"
+    }
+  }, [_c("svg", {
+    staticClass: "icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-options"
+    }
+  })])]), _vm._v(" "), _vm._m(0)])]), _vm._v(" "), _vm._m(1)])]), _vm._v(" "), _c("div", {
+    staticClass: "col-sm-6 col-lg-3"
+  }, [_c("div", {
+    staticClass: "card mb-4 text-white bg-info"
+  }, [_c("div", {
+    staticClass: "card-body pb-0 d-flex justify-content-between align-items-start"
+  }, [_c("div", [_c("div", {
+    staticClass: "fs-4 fw-semibold"
+  }, [_vm._v("$6.200 "), _c("span", {
+    staticClass: "fs-6 fw-normal"
+  }, [_vm._v("(40.9%\n                    "), _c("svg", {
+    staticClass: "icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-arrow-top"
+    }
+  })]), _vm._v(")")])]), _vm._v(" "), _c("div", [_vm._v("Income")])]), _vm._v(" "), _c("div", {
+    staticClass: "dropdown"
+  }, [_c("button", {
+    staticClass: "btn btn-transparent text-white p-0",
+    attrs: {
+      type: "button",
+      "data-coreui-toggle": "dropdown",
+      "aria-haspopup": "true",
+      "aria-expanded": "false"
+    }
+  }, [_c("svg", {
+    staticClass: "icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-options"
+    }
+  })])]), _vm._v(" "), _vm._m(2)])]), _vm._v(" "), _vm._m(3)])]), _vm._v(" "), _c("div", {
+    staticClass: "col-sm-6 col-lg-3"
+  }, [_c("div", {
+    staticClass: "card mb-4 text-white bg-warning"
+  }, [_c("div", {
+    staticClass: "card-body pb-0 d-flex justify-content-between align-items-start"
+  }, [_c("div", [_c("div", {
+    staticClass: "fs-4 fw-semibold"
+  }, [_vm._v("2.49% "), _c("span", {
+    staticClass: "fs-6 fw-normal"
+  }, [_vm._v("(84.7%\n                    "), _c("svg", {
+    staticClass: "icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-arrow-top"
+    }
+  })]), _vm._v(")")])]), _vm._v(" "), _c("div", [_vm._v("Conversion Rate")])]), _vm._v(" "), _c("div", {
+    staticClass: "dropdown"
+  }, [_c("button", {
+    staticClass: "btn btn-transparent text-white p-0",
+    attrs: {
+      type: "button",
+      "data-coreui-toggle": "dropdown",
+      "aria-haspopup": "true",
+      "aria-expanded": "false"
+    }
+  }, [_c("svg", {
+    staticClass: "icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-options"
+    }
+  })])]), _vm._v(" "), _vm._m(4)])]), _vm._v(" "), _vm._m(5)])]), _vm._v(" "), _c("div", {
+    staticClass: "col-sm-6 col-lg-3"
+  }, [_c("div", {
+    staticClass: "card mb-4 text-white bg-danger"
+  }, [_c("div", {
+    staticClass: "card-body pb-0 d-flex justify-content-between align-items-start"
+  }, [_c("div", [_c("div", {
+    staticClass: "fs-4 fw-semibold"
+  }, [_vm._v("44K "), _c("span", {
+    staticClass: "fs-6 fw-normal"
+  }, [_vm._v("(-23.6%\n                    "), _c("svg", {
+    staticClass: "icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-arrow-bottom"
+    }
+  })]), _vm._v(")")])]), _vm._v(" "), _c("div", [_vm._v("Sessions")])]), _vm._v(" "), _c("div", {
+    staticClass: "dropdown"
+  }, [_c("button", {
+    staticClass: "btn btn-transparent text-white p-0",
+    attrs: {
+      type: "button",
+      "data-coreui-toggle": "dropdown",
+      "aria-haspopup": "true",
+      "aria-expanded": "false"
+    }
+  }, [_c("svg", {
+    staticClass: "icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-options"
+    }
+  })])]), _vm._v(" "), _vm._m(6)])]), _vm._v(" "), _vm._m(7)])])]), _vm._v(" "), _c("div", {
+    staticClass: "card mb-4"
+  }, [_c("div", {
+    staticClass: "card-body"
+  }, [_c("div", {
+    staticClass: "d-flex justify-content-between"
+  }, [_vm._m(8), _vm._v(" "), _c("div", {
+    staticClass: "btn-toolbar d-none d-md-block",
+    attrs: {
+      role: "toolbar",
+      "aria-label": "Toolbar with buttons"
+    }
+  }, [_vm._m(9), _vm._v(" "), _c("button", {
+    staticClass: "btn btn-primary",
+    attrs: {
+      type: "button"
+    }
+  }, [_c("svg", {
+    staticClass: "icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-cloud-download"
+    }
+  })])])])]), _vm._v(" "), _vm._m(10)]), _vm._v(" "), _vm._m(11)]), _vm._v(" "), _c("div", {
+    staticClass: "row"
+  }, [_c("div", {
+    staticClass: "col-sm-6 col-lg-4"
+  }, [_c("div", {
+    staticClass: "card mb-4",
+    staticStyle: {
+      "--cui-card-cap-bg": "#3b5998"
+    }
+  }, [_c("div", {
+    staticClass: "card-header position-relative d-flex justify-content-center align-items-center"
+  }, [_c("svg", {
+    staticClass: "icon icon-3xl text-white my-4"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/brand.svg#cib-facebook-f"
+    }
+  })]), _vm._v(" "), _vm._m(12)]), _vm._v(" "), _vm._m(13)])]), _vm._v(" "), _c("div", {
+    staticClass: "col-sm-6 col-lg-4"
+  }, [_c("div", {
+    staticClass: "card mb-4",
+    staticStyle: {
+      "--cui-card-cap-bg": "#00aced"
+    }
+  }, [_c("div", {
+    staticClass: "card-header position-relative d-flex justify-content-center align-items-center"
+  }, [_c("svg", {
+    staticClass: "icon icon-3xl text-white my-4"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/brand.svg#cib-twitter"
+    }
+  })]), _vm._v(" "), _vm._m(14)]), _vm._v(" "), _vm._m(15)])]), _vm._v(" "), _c("div", {
+    staticClass: "col-sm-6 col-lg-4"
+  }, [_c("div", {
+    staticClass: "card mb-4",
+    staticStyle: {
+      "--cui-card-cap-bg": "#4875b4"
+    }
+  }, [_c("div", {
+    staticClass: "card-header position-relative d-flex justify-content-center align-items-center"
+  }, [_c("svg", {
+    staticClass: "icon icon-3xl text-white my-4"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/brand.svg#cib-linkedin"
+    }
+  })]), _vm._v(" "), _vm._m(16)]), _vm._v(" "), _vm._m(17)])])]), _vm._v(" "), _c("div", {
+    staticClass: "row"
+  }, [_c("div", {
+    staticClass: "col-md-12"
+  }, [_c("div", {
+    staticClass: "card mb-4"
+  }, [_c("div", {
+    staticClass: "card-header"
+  }, [_vm._v("Traffic & Sales")]), _vm._v(" "), _c("div", {
+    staticClass: "card-body"
+  }, [_c("div", {
+    staticClass: "row"
+  }, [_vm._m(18), _vm._v(" "), _c("div", {
+    staticClass: "col-sm-6"
+  }, [_vm._m(19), _vm._v(" "), _c("hr", {
+    staticClass: "mt-0"
+  }), _vm._v(" "), _c("div", {
+    staticClass: "progress-group"
+  }, [_c("div", {
+    staticClass: "progress-group-header"
+  }, [_c("svg", {
+    staticClass: "icon icon-lg me-2"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-user"
+    }
+  })]), _vm._v(" "), _c("div", [_vm._v("Male")]), _vm._v(" "), _c("div", {
+    staticClass: "ms-auto fw-semibold"
+  }, [_vm._v("43%")])]), _vm._v(" "), _vm._m(20)]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group mb-5"
+  }, [_c("div", {
+    staticClass: "progress-group-header"
+  }, [_c("svg", {
+    staticClass: "icon icon-lg me-2"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-user-female"
+    }
+  })]), _vm._v(" "), _c("div", [_vm._v("Female")]), _vm._v(" "), _c("div", {
+    staticClass: "ms-auto fw-semibold"
+  }, [_vm._v("37%")])]), _vm._v(" "), _vm._m(21)]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group"
+  }, [_c("div", {
+    staticClass: "progress-group-header"
+  }, [_c("svg", {
+    staticClass: "icon icon-lg me-2"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/brand.svg#cib-google"
+    }
+  })]), _vm._v(" "), _c("div", [_vm._v("Organic Search")]), _vm._v(" "), _c("div", {
+    staticClass: "ms-auto fw-semibold me-2"
+  }, [_vm._v("191.235")]), _vm._v(" "), _c("div", {
+    staticClass: "text-medium-emphasis small"
+  }, [_vm._v("(56%)")])]), _vm._v(" "), _vm._m(22)]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group"
+  }, [_c("div", {
+    staticClass: "progress-group-header"
+  }, [_c("svg", {
+    staticClass: "icon icon-lg me-2"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/brand.svg#cib-facebook-f"
+    }
+  })]), _vm._v(" "), _c("div", [_vm._v("Facebook")]), _vm._v(" "), _c("div", {
+    staticClass: "ms-auto fw-semibold me-2"
+  }, [_vm._v("51.223")]), _vm._v(" "), _c("div", {
+    staticClass: "text-medium-emphasis small"
+  }, [_vm._v("(15%)")])]), _vm._v(" "), _vm._m(23)]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group"
+  }, [_c("div", {
+    staticClass: "progress-group-header"
+  }, [_c("svg", {
+    staticClass: "icon icon-lg me-2"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/brand.svg#cib-twitter"
+    }
+  })]), _vm._v(" "), _c("div", [_vm._v("Twitter")]), _vm._v(" "), _c("div", {
+    staticClass: "ms-auto fw-semibold me-2"
+  }, [_vm._v("37.564")]), _vm._v(" "), _c("div", {
+    staticClass: "text-medium-emphasis small"
+  }, [_vm._v("(11%)")])]), _vm._v(" "), _vm._m(24)]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group"
+  }, [_c("div", {
+    staticClass: "progress-group-header"
+  }, [_c("svg", {
+    staticClass: "icon icon-lg me-2"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/brand.svg#cib-linkedin"
+    }
+  })]), _vm._v(" "), _c("div", [_vm._v("LinkedIn")]), _vm._v(" "), _c("div", {
+    staticClass: "ms-auto fw-semibold me-2"
+  }, [_vm._v("27.319")]), _vm._v(" "), _c("div", {
+    staticClass: "text-medium-emphasis small"
+  }, [_vm._v("(8%)")])]), _vm._v(" "), _vm._m(25)])])]), _vm._v(" "), _c("br"), _vm._v(" "), _c("div", {
+    staticClass: "table-responsive"
+  }, [_c("table", {
+    staticClass: "table border mb-0"
+  }, [_c("thead", {
+    staticClass: "table-light fw-semibold"
+  }, [_c("tr", {
+    staticClass: "align-middle"
+  }, [_c("th", {
+    staticClass: "text-center"
+  }, [_c("svg", {
+    staticClass: "icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-people"
+    }
+  })])]), _vm._v(" "), _c("th", [_vm._v("User")]), _vm._v(" "), _c("th", {
+    staticClass: "text-center"
+  }, [_vm._v("Country")]), _vm._v(" "), _c("th", [_vm._v("Usage")]), _vm._v(" "), _c("th", {
+    staticClass: "text-center"
+  }, [_vm._v("Payment Method")]), _vm._v(" "), _c("th", [_vm._v("Activity")]), _vm._v(" "), _c("th")])]), _vm._v(" "), _c("tbody", [_c("tr", {
+    staticClass: "align-middle"
+  }, [_vm._m(26), _vm._v(" "), _vm._m(27), _vm._v(" "), _c("td", {
+    staticClass: "text-center"
+  }, [_c("svg", {
+    staticClass: "icon icon-xl"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/flag.svg#cif-us"
+    }
+  })])]), _vm._v(" "), _vm._m(28), _vm._v(" "), _c("td", {
+    staticClass: "text-center"
+  }, [_c("svg", {
+    staticClass: "icon icon-xl"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/brand.svg#cib-cc-mastercard"
+    }
+  })])]), _vm._v(" "), _vm._m(29), _vm._v(" "), _c("td", [_c("div", {
+    staticClass: "dropdown"
+  }, [_c("button", {
+    staticClass: "btn btn-transparent p-0",
+    attrs: {
+      type: "button",
+      "data-coreui-toggle": "dropdown",
+      "aria-haspopup": "true",
+      "aria-expanded": "false"
+    }
+  }, [_c("svg", {
+    staticClass: "icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-options"
+    }
+  })])]), _vm._v(" "), _vm._m(30)])])]), _vm._v(" "), _c("tr", {
+    staticClass: "align-middle"
+  }, [_vm._m(31), _vm._v(" "), _vm._m(32), _vm._v(" "), _c("td", {
+    staticClass: "text-center"
+  }, [_c("svg", {
+    staticClass: "icon icon-xl"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/flag.svg#cif-br"
+    }
+  })])]), _vm._v(" "), _vm._m(33), _vm._v(" "), _c("td", {
+    staticClass: "text-center"
+  }, [_c("svg", {
+    staticClass: "icon icon-xl"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/brand.svg#cib-cc-visa"
+    }
+  })])]), _vm._v(" "), _vm._m(34), _vm._v(" "), _c("td", [_c("div", {
+    staticClass: "dropdown"
+  }, [_c("button", {
+    staticClass: "btn btn-transparent p-0",
+    attrs: {
+      type: "button",
+      "data-coreui-toggle": "dropdown",
+      "aria-haspopup": "true",
+      "aria-expanded": "false"
+    }
+  }, [_c("svg", {
+    staticClass: "icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-options"
+    }
+  })])]), _vm._v(" "), _vm._m(35)])])]), _vm._v(" "), _c("tr", {
+    staticClass: "align-middle"
+  }, [_vm._m(36), _vm._v(" "), _vm._m(37), _vm._v(" "), _c("td", {
+    staticClass: "text-center"
+  }, [_c("svg", {
+    staticClass: "icon icon-xl"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/flag.svg#cif-in"
+    }
+  })])]), _vm._v(" "), _vm._m(38), _vm._v(" "), _c("td", {
+    staticClass: "text-center"
+  }, [_c("svg", {
+    staticClass: "icon icon-xl"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/brand.svg#cib-cc-stripe"
+    }
+  })])]), _vm._v(" "), _vm._m(39), _vm._v(" "), _c("td", [_c("div", {
+    staticClass: "dropdown"
+  }, [_c("button", {
+    staticClass: "btn btn-transparent p-0",
+    attrs: {
+      type: "button",
+      "data-coreui-toggle": "dropdown",
+      "aria-haspopup": "true",
+      "aria-expanded": "false"
+    }
+  }, [_c("svg", {
+    staticClass: "icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-options"
+    }
+  })])]), _vm._v(" "), _vm._m(40)])])]), _vm._v(" "), _c("tr", {
+    staticClass: "align-middle"
+  }, [_vm._m(41), _vm._v(" "), _vm._m(42), _vm._v(" "), _c("td", {
+    staticClass: "text-center"
+  }, [_c("svg", {
+    staticClass: "icon icon-xl"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/flag.svg#cif-fr"
+    }
+  })])]), _vm._v(" "), _vm._m(43), _vm._v(" "), _c("td", {
+    staticClass: "text-center"
+  }, [_c("svg", {
+    staticClass: "icon icon-xl"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/brand.svg#cib-cc-paypal"
+    }
+  })])]), _vm._v(" "), _vm._m(44), _vm._v(" "), _c("td", [_c("div", {
+    staticClass: "dropdown"
+  }, [_c("button", {
+    staticClass: "btn btn-transparent p-0",
+    attrs: {
+      type: "button",
+      "data-coreui-toggle": "dropdown",
+      "aria-haspopup": "true",
+      "aria-expanded": "false"
+    }
+  }, [_c("svg", {
+    staticClass: "icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-options"
+    }
+  })])]), _vm._v(" "), _vm._m(45)])])]), _vm._v(" "), _c("tr", {
+    staticClass: "align-middle"
+  }, [_vm._m(46), _vm._v(" "), _vm._m(47), _vm._v(" "), _c("td", {
+    staticClass: "text-center"
+  }, [_c("svg", {
+    staticClass: "icon icon-xl"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/flag.svg#cif-es"
+    }
+  })])]), _vm._v(" "), _vm._m(48), _vm._v(" "), _c("td", {
+    staticClass: "text-center"
+  }, [_c("svg", {
+    staticClass: "icon icon-xl"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/brand.svg#cib-cc-apple-pay"
+    }
+  })])]), _vm._v(" "), _vm._m(49), _vm._v(" "), _c("td", [_c("div", {
+    staticClass: "dropdown dropup"
+  }, [_c("button", {
+    staticClass: "btn btn-transparent p-0",
+    attrs: {
+      type: "button",
+      "data-coreui-toggle": "dropdown",
+      "aria-haspopup": "true",
+      "aria-expanded": "false"
+    }
+  }, [_c("svg", {
+    staticClass: "icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-options"
+    }
+  })])]), _vm._v(" "), _vm._m(50)])])]), _vm._v(" "), _c("tr", {
+    staticClass: "align-middle"
+  }, [_vm._m(51), _vm._v(" "), _vm._m(52), _vm._v(" "), _c("td", {
+    staticClass: "text-center"
+  }, [_c("svg", {
+    staticClass: "icon icon-xl"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/flag.svg#cif-pl"
+    }
+  })])]), _vm._v(" "), _vm._m(53), _vm._v(" "), _c("td", {
+    staticClass: "text-center"
+  }, [_c("svg", {
+    staticClass: "icon icon-xl"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/brand.svg#cib-cc-amex"
+    }
+  })])]), _vm._v(" "), _vm._m(54), _vm._v(" "), _c("td", [_c("div", {
+    staticClass: "dropdown dropup"
+  }, [_c("button", {
+    staticClass: "btn btn-transparent p-0",
+    attrs: {
+      type: "button",
+      "data-coreui-toggle": "dropdown",
+      "aria-haspopup": "true",
+      "aria-expanded": "false"
+    }
+  }, [_c("svg", {
+    staticClass: "icon"
+  }, [_c("use", {
+    attrs: {
+      "xlink:href": "vendors/@coreui/icons/svg/free.svg#cil-options"
+    }
+  })])]), _vm._v(" "), _vm._m(55)])])])])])])])])])])]);
 };
 var staticRenderFns = [function () {
   var _vm = this,
     _c = _vm._self._c;
   return _c("div", {
-    staticClass: "container-fluid"
-  }, [_c("h1", {
-    staticClass: "h3 mb-2 text-gray-800"
-  }, [_vm._v("Tables")]), _vm._v(" "), _c("div", {
-    staticClass: "card shadow mb-4"
-  }, [_c("div", {
-    staticClass: "card-body"
-  }, [_c("div", {
-    staticClass: "table-responsive"
-  }, [_c("table", {
-    staticClass: "table table-bordered",
+    staticClass: "dropdown-menu dropdown-menu-end"
+  }, [_c("a", {
+    staticClass: "dropdown-item",
     attrs: {
-      id: "dataTable",
-      width: "100%",
-      cellspacing: "0"
+      href: "#"
     }
-  }, [_c("thead", [_c("tr", [_c("th", [_vm._v("Name")]), _vm._v(" "), _c("th", [_vm._v("Position")]), _vm._v(" "), _c("th", [_vm._v("Office")]), _vm._v(" "), _c("th", [_vm._v("Age")]), _vm._v(" "), _c("th", [_vm._v("Start date")]), _vm._v(" "), _c("th", [_vm._v("Salary")])])]), _vm._v(" "), _c("tfoot", [_c("tr", [_c("th", [_vm._v("Name")]), _vm._v(" "), _c("th", [_vm._v("Position")]), _vm._v(" "), _c("th", [_vm._v("Office")]), _vm._v(" "), _c("th", [_vm._v("Age")]), _vm._v(" "), _c("th", [_vm._v("Start date")]), _vm._v(" "), _c("th", [_vm._v("Salary")])])]), _vm._v(" "), _c("tbody", [_c("tr", [_c("td", [_vm._v("Tiger Nixon")]), _vm._v(" "), _c("td", [_vm._v("System Architect")]), _vm._v(" "), _c("td", [_vm._v("Edinburgh")]), _vm._v(" "), _c("td", [_vm._v("61")]), _vm._v(" "), _c("td", [_vm._v("2011/04/25")]), _vm._v(" "), _c("td", [_vm._v("$320,800")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Garrett Winters")]), _vm._v(" "), _c("td", [_vm._v("Accountant")]), _vm._v(" "), _c("td", [_vm._v("Tokyo")]), _vm._v(" "), _c("td", [_vm._v("63")]), _vm._v(" "), _c("td", [_vm._v("2011/07/25")]), _vm._v(" "), _c("td", [_vm._v("$170,750")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Ashton Cox")]), _vm._v(" "), _c("td", [_vm._v("Junior Technical Author")]), _vm._v(" "), _c("td", [_vm._v("San Francisco")]), _vm._v(" "), _c("td", [_vm._v("66")]), _vm._v(" "), _c("td", [_vm._v("2009/01/12")]), _vm._v(" "), _c("td", [_vm._v("$86,000")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Cedric Kelly")]), _vm._v(" "), _c("td", [_vm._v("Senior Javascript Developer")]), _vm._v(" "), _c("td", [_vm._v("Edinburgh")]), _vm._v(" "), _c("td", [_vm._v("22")]), _vm._v(" "), _c("td", [_vm._v("2012/03/29")]), _vm._v(" "), _c("td", [_vm._v("$433,060")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Airi Satou")]), _vm._v(" "), _c("td", [_vm._v("Accountant")]), _vm._v(" "), _c("td", [_vm._v("Tokyo")]), _vm._v(" "), _c("td", [_vm._v("33")]), _vm._v(" "), _c("td", [_vm._v("2008/11/28")]), _vm._v(" "), _c("td", [_vm._v("$162,700")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Brielle Williamson")]), _vm._v(" "), _c("td", [_vm._v("Integration Specialist")]), _vm._v(" "), _c("td", [_vm._v("New York")]), _vm._v(" "), _c("td", [_vm._v("61")]), _vm._v(" "), _c("td", [_vm._v("2012/12/02")]), _vm._v(" "), _c("td", [_vm._v("$372,000")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Herrod Chandler")]), _vm._v(" "), _c("td", [_vm._v("Sales Assistant")]), _vm._v(" "), _c("td", [_vm._v("San Francisco")]), _vm._v(" "), _c("td", [_vm._v("59")]), _vm._v(" "), _c("td", [_vm._v("2012/08/06")]), _vm._v(" "), _c("td", [_vm._v("$137,500")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Rhona Davidson")]), _vm._v(" "), _c("td", [_vm._v("Integration Specialist")]), _vm._v(" "), _c("td", [_vm._v("Tokyo")]), _vm._v(" "), _c("td", [_vm._v("55")]), _vm._v(" "), _c("td", [_vm._v("2010/10/14")]), _vm._v(" "), _c("td", [_vm._v("$327,900")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Colleen Hurst")]), _vm._v(" "), _c("td", [_vm._v("Javascript Developer")]), _vm._v(" "), _c("td", [_vm._v("San Francisco")]), _vm._v(" "), _c("td", [_vm._v("39")]), _vm._v(" "), _c("td", [_vm._v("2009/09/15")]), _vm._v(" "), _c("td", [_vm._v("$205,500")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Sonya Frost")]), _vm._v(" "), _c("td", [_vm._v("Software Engineer")]), _vm._v(" "), _c("td", [_vm._v("Edinburgh")]), _vm._v(" "), _c("td", [_vm._v("23")]), _vm._v(" "), _c("td", [_vm._v("2008/12/13")]), _vm._v(" "), _c("td", [_vm._v("$103,600")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Jena Gaines")]), _vm._v(" "), _c("td", [_vm._v("Office Manager")]), _vm._v(" "), _c("td", [_vm._v("London")]), _vm._v(" "), _c("td", [_vm._v("30")]), _vm._v(" "), _c("td", [_vm._v("2008/12/19")]), _vm._v(" "), _c("td", [_vm._v("$90,560")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Quinn Flynn")]), _vm._v(" "), _c("td", [_vm._v("Support Lead")]), _vm._v(" "), _c("td", [_vm._v("Edinburgh")]), _vm._v(" "), _c("td", [_vm._v("22")]), _vm._v(" "), _c("td", [_vm._v("2013/03/03")]), _vm._v(" "), _c("td", [_vm._v("$342,000")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Charde Marshall")]), _vm._v(" "), _c("td", [_vm._v("Regional Director")]), _vm._v(" "), _c("td", [_vm._v("San Francisco")]), _vm._v(" "), _c("td", [_vm._v("36")]), _vm._v(" "), _c("td", [_vm._v("2008/10/16")]), _vm._v(" "), _c("td", [_vm._v("$470,600")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Haley Kennedy")]), _vm._v(" "), _c("td", [_vm._v("Senior Marketing Designer")]), _vm._v(" "), _c("td", [_vm._v("London")]), _vm._v(" "), _c("td", [_vm._v("43")]), _vm._v(" "), _c("td", [_vm._v("2012/12/18")]), _vm._v(" "), _c("td", [_vm._v("$313,500")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Tatyana Fitzpatrick")]), _vm._v(" "), _c("td", [_vm._v("Regional Director")]), _vm._v(" "), _c("td", [_vm._v("London")]), _vm._v(" "), _c("td", [_vm._v("19")]), _vm._v(" "), _c("td", [_vm._v("2010/03/17")]), _vm._v(" "), _c("td", [_vm._v("$385,750")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Michael Silva")]), _vm._v(" "), _c("td", [_vm._v("Marketing Designer")]), _vm._v(" "), _c("td", [_vm._v("London")]), _vm._v(" "), _c("td", [_vm._v("66")]), _vm._v(" "), _c("td", [_vm._v("2012/11/27")]), _vm._v(" "), _c("td", [_vm._v("$198,500")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Paul Byrd")]), _vm._v(" "), _c("td", [_vm._v("Chief Financial Officer (CFO)")]), _vm._v(" "), _c("td", [_vm._v("New York")]), _vm._v(" "), _c("td", [_vm._v("64")]), _vm._v(" "), _c("td", [_vm._v("2010/06/09")]), _vm._v(" "), _c("td", [_vm._v("$725,000")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Gloria Little")]), _vm._v(" "), _c("td", [_vm._v("Systems Administrator")]), _vm._v(" "), _c("td", [_vm._v("New York")]), _vm._v(" "), _c("td", [_vm._v("59")]), _vm._v(" "), _c("td", [_vm._v("2009/04/10")]), _vm._v(" "), _c("td", [_vm._v("$237,500")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Bradley Greer")]), _vm._v(" "), _c("td", [_vm._v("Software Engineer")]), _vm._v(" "), _c("td", [_vm._v("London")]), _vm._v(" "), _c("td", [_vm._v("41")]), _vm._v(" "), _c("td", [_vm._v("2012/10/13")]), _vm._v(" "), _c("td", [_vm._v("$132,000")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Dai Rios")]), _vm._v(" "), _c("td", [_vm._v("Personnel Lead")]), _vm._v(" "), _c("td", [_vm._v("Edinburgh")]), _vm._v(" "), _c("td", [_vm._v("35")]), _vm._v(" "), _c("td", [_vm._v("2012/09/26")]), _vm._v(" "), _c("td", [_vm._v("$217,500")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Jenette Caldwell")]), _vm._v(" "), _c("td", [_vm._v("Development Lead")]), _vm._v(" "), _c("td", [_vm._v("New York")]), _vm._v(" "), _c("td", [_vm._v("30")]), _vm._v(" "), _c("td", [_vm._v("2011/09/03")]), _vm._v(" "), _c("td", [_vm._v("$345,000")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Yuri Berry")]), _vm._v(" "), _c("td", [_vm._v("Chief Marketing Officer (CMO)")]), _vm._v(" "), _c("td", [_vm._v("New York")]), _vm._v(" "), _c("td", [_vm._v("40")]), _vm._v(" "), _c("td", [_vm._v("2009/06/25")]), _vm._v(" "), _c("td", [_vm._v("$675,000")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Caesar Vance")]), _vm._v(" "), _c("td", [_vm._v("Pre-Sales Support")]), _vm._v(" "), _c("td", [_vm._v("New York")]), _vm._v(" "), _c("td", [_vm._v("21")]), _vm._v(" "), _c("td", [_vm._v("2011/12/12")]), _vm._v(" "), _c("td", [_vm._v("$106,450")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Doris Wilder")]), _vm._v(" "), _c("td", [_vm._v("Sales Assistant")]), _vm._v(" "), _c("td", [_vm._v("Sidney")]), _vm._v(" "), _c("td", [_vm._v("23")]), _vm._v(" "), _c("td", [_vm._v("2010/09/20")]), _vm._v(" "), _c("td", [_vm._v("$85,600")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Angelica Ramos")]), _vm._v(" "), _c("td", [_vm._v("Chief Executive Officer (CEO)")]), _vm._v(" "), _c("td", [_vm._v("London")]), _vm._v(" "), _c("td", [_vm._v("47")]), _vm._v(" "), _c("td", [_vm._v("2009/10/09")]), _vm._v(" "), _c("td", [_vm._v("$1,200,000")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Gavin Joyce")]), _vm._v(" "), _c("td", [_vm._v("Developer")]), _vm._v(" "), _c("td", [_vm._v("Edinburgh")]), _vm._v(" "), _c("td", [_vm._v("42")]), _vm._v(" "), _c("td", [_vm._v("2010/12/22")]), _vm._v(" "), _c("td", [_vm._v("$92,575")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Jennifer Chang")]), _vm._v(" "), _c("td", [_vm._v("Regional Director")]), _vm._v(" "), _c("td", [_vm._v("Singapore")]), _vm._v(" "), _c("td", [_vm._v("28")]), _vm._v(" "), _c("td", [_vm._v("2010/11/14")]), _vm._v(" "), _c("td", [_vm._v("$357,650")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Brenden Wagner")]), _vm._v(" "), _c("td", [_vm._v("Software Engineer")]), _vm._v(" "), _c("td", [_vm._v("San Francisco")]), _vm._v(" "), _c("td", [_vm._v("28")]), _vm._v(" "), _c("td", [_vm._v("2011/06/07")]), _vm._v(" "), _c("td", [_vm._v("$206,850")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Fiona Green")]), _vm._v(" "), _c("td", [_vm._v("Chief Operating Officer (COO)")]), _vm._v(" "), _c("td", [_vm._v("San Francisco")]), _vm._v(" "), _c("td", [_vm._v("48")]), _vm._v(" "), _c("td", [_vm._v("2010/03/11")]), _vm._v(" "), _c("td", [_vm._v("$850,000")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Shou Itou")]), _vm._v(" "), _c("td", [_vm._v("Regional Marketing")]), _vm._v(" "), _c("td", [_vm._v("Tokyo")]), _vm._v(" "), _c("td", [_vm._v("20")]), _vm._v(" "), _c("td", [_vm._v("2011/08/14")]), _vm._v(" "), _c("td", [_vm._v("$163,000")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Michelle House")]), _vm._v(" "), _c("td", [_vm._v("Integration Specialist")]), _vm._v(" "), _c("td", [_vm._v("Sidney")]), _vm._v(" "), _c("td", [_vm._v("37")]), _vm._v(" "), _c("td", [_vm._v("2011/06/02")]), _vm._v(" "), _c("td", [_vm._v("$95,400")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Suki Burks")]), _vm._v(" "), _c("td", [_vm._v("Developer")]), _vm._v(" "), _c("td", [_vm._v("London")]), _vm._v(" "), _c("td", [_vm._v("53")]), _vm._v(" "), _c("td", [_vm._v("2009/10/22")]), _vm._v(" "), _c("td", [_vm._v("$114,500")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Prescott Bartlett")]), _vm._v(" "), _c("td", [_vm._v("Technical Author")]), _vm._v(" "), _c("td", [_vm._v("London")]), _vm._v(" "), _c("td", [_vm._v("27")]), _vm._v(" "), _c("td", [_vm._v("2011/05/07")]), _vm._v(" "), _c("td", [_vm._v("$145,000")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Gavin Cortez")]), _vm._v(" "), _c("td", [_vm._v("Team Leader")]), _vm._v(" "), _c("td", [_vm._v("San Francisco")]), _vm._v(" "), _c("td", [_vm._v("22")]), _vm._v(" "), _c("td", [_vm._v("2008/10/26")]), _vm._v(" "), _c("td", [_vm._v("$235,500")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Martena Mccray")]), _vm._v(" "), _c("td", [_vm._v("Post-Sales support")]), _vm._v(" "), _c("td", [_vm._v("Edinburgh")]), _vm._v(" "), _c("td", [_vm._v("46")]), _vm._v(" "), _c("td", [_vm._v("2011/03/09")]), _vm._v(" "), _c("td", [_vm._v("$324,050")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Unity Butler")]), _vm._v(" "), _c("td", [_vm._v("Marketing Designer")]), _vm._v(" "), _c("td", [_vm._v("San Francisco")]), _vm._v(" "), _c("td", [_vm._v("47")]), _vm._v(" "), _c("td", [_vm._v("2009/12/09")]), _vm._v(" "), _c("td", [_vm._v("$85,675")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Howard Hatfield")]), _vm._v(" "), _c("td", [_vm._v("Office Manager")]), _vm._v(" "), _c("td", [_vm._v("San Francisco")]), _vm._v(" "), _c("td", [_vm._v("51")]), _vm._v(" "), _c("td", [_vm._v("2008/12/16")]), _vm._v(" "), _c("td", [_vm._v("$164,500")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Hope Fuentes")]), _vm._v(" "), _c("td", [_vm._v("Secretary")]), _vm._v(" "), _c("td", [_vm._v("San Francisco")]), _vm._v(" "), _c("td", [_vm._v("41")]), _vm._v(" "), _c("td", [_vm._v("2010/02/12")]), _vm._v(" "), _c("td", [_vm._v("$109,850")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Vivian Harrell")]), _vm._v(" "), _c("td", [_vm._v("Financial Controller")]), _vm._v(" "), _c("td", [_vm._v("San Francisco")]), _vm._v(" "), _c("td", [_vm._v("62")]), _vm._v(" "), _c("td", [_vm._v("2009/02/14")]), _vm._v(" "), _c("td", [_vm._v("$452,500")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Timothy Mooney")]), _vm._v(" "), _c("td", [_vm._v("Office Manager")]), _vm._v(" "), _c("td", [_vm._v("London")]), _vm._v(" "), _c("td", [_vm._v("37")]), _vm._v(" "), _c("td", [_vm._v("2008/12/11")]), _vm._v(" "), _c("td", [_vm._v("$136,200")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Jackson Bradshaw")]), _vm._v(" "), _c("td", [_vm._v("Director")]), _vm._v(" "), _c("td", [_vm._v("New York")]), _vm._v(" "), _c("td", [_vm._v("65")]), _vm._v(" "), _c("td", [_vm._v("2008/09/26")]), _vm._v(" "), _c("td", [_vm._v("$645,750")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Olivia Liang")]), _vm._v(" "), _c("td", [_vm._v("Support Engineer")]), _vm._v(" "), _c("td", [_vm._v("Singapore")]), _vm._v(" "), _c("td", [_vm._v("64")]), _vm._v(" "), _c("td", [_vm._v("2011/02/03")]), _vm._v(" "), _c("td", [_vm._v("$234,500")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Bruno Nash")]), _vm._v(" "), _c("td", [_vm._v("Software Engineer")]), _vm._v(" "), _c("td", [_vm._v("London")]), _vm._v(" "), _c("td", [_vm._v("38")]), _vm._v(" "), _c("td", [_vm._v("2011/05/03")]), _vm._v(" "), _c("td", [_vm._v("$163,500")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Sakura Yamamoto")]), _vm._v(" "), _c("td", [_vm._v("Support Engineer")]), _vm._v(" "), _c("td", [_vm._v("Tokyo")]), _vm._v(" "), _c("td", [_vm._v("37")]), _vm._v(" "), _c("td", [_vm._v("2009/08/19")]), _vm._v(" "), _c("td", [_vm._v("$139,575")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Thor Walton")]), _vm._v(" "), _c("td", [_vm._v("Developer")]), _vm._v(" "), _c("td", [_vm._v("New York")]), _vm._v(" "), _c("td", [_vm._v("61")]), _vm._v(" "), _c("td", [_vm._v("2013/08/11")]), _vm._v(" "), _c("td", [_vm._v("$98,540")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Finn Camacho")]), _vm._v(" "), _c("td", [_vm._v("Support Engineer")]), _vm._v(" "), _c("td", [_vm._v("San Francisco")]), _vm._v(" "), _c("td", [_vm._v("47")]), _vm._v(" "), _c("td", [_vm._v("2009/07/07")]), _vm._v(" "), _c("td", [_vm._v("$87,500")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Serge Baldwin")]), _vm._v(" "), _c("td", [_vm._v("Data Coordinator")]), _vm._v(" "), _c("td", [_vm._v("Singapore")]), _vm._v(" "), _c("td", [_vm._v("64")]), _vm._v(" "), _c("td", [_vm._v("2012/04/09")]), _vm._v(" "), _c("td", [_vm._v("$138,575")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Zenaida Frank")]), _vm._v(" "), _c("td", [_vm._v("Software Engineer")]), _vm._v(" "), _c("td", [_vm._v("New York")]), _vm._v(" "), _c("td", [_vm._v("63")]), _vm._v(" "), _c("td", [_vm._v("2010/01/04")]), _vm._v(" "), _c("td", [_vm._v("$125,250")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Zorita Serrano")]), _vm._v(" "), _c("td", [_vm._v("Software Engineer")]), _vm._v(" "), _c("td", [_vm._v("San Francisco")]), _vm._v(" "), _c("td", [_vm._v("56")]), _vm._v(" "), _c("td", [_vm._v("2012/06/01")]), _vm._v(" "), _c("td", [_vm._v("$115,000")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Jennifer Acosta")]), _vm._v(" "), _c("td", [_vm._v("Junior Javascript Developer")]), _vm._v(" "), _c("td", [_vm._v("Edinburgh")]), _vm._v(" "), _c("td", [_vm._v("43")]), _vm._v(" "), _c("td", [_vm._v("2013/02/01")]), _vm._v(" "), _c("td", [_vm._v("$75,650")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Cara Stevens")]), _vm._v(" "), _c("td", [_vm._v("Sales Assistant")]), _vm._v(" "), _c("td", [_vm._v("New York")]), _vm._v(" "), _c("td", [_vm._v("46")]), _vm._v(" "), _c("td", [_vm._v("2011/12/06")]), _vm._v(" "), _c("td", [_vm._v("$145,600")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Hermione Butler")]), _vm._v(" "), _c("td", [_vm._v("Regional Director")]), _vm._v(" "), _c("td", [_vm._v("London")]), _vm._v(" "), _c("td", [_vm._v("47")]), _vm._v(" "), _c("td", [_vm._v("2011/03/21")]), _vm._v(" "), _c("td", [_vm._v("$356,250")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Lael Greer")]), _vm._v(" "), _c("td", [_vm._v("Systems Administrator")]), _vm._v(" "), _c("td", [_vm._v("London")]), _vm._v(" "), _c("td", [_vm._v("21")]), _vm._v(" "), _c("td", [_vm._v("2009/02/27")]), _vm._v(" "), _c("td", [_vm._v("$103,500")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Jonas Alexander")]), _vm._v(" "), _c("td", [_vm._v("Developer")]), _vm._v(" "), _c("td", [_vm._v("San Francisco")]), _vm._v(" "), _c("td", [_vm._v("30")]), _vm._v(" "), _c("td", [_vm._v("2010/07/14")]), _vm._v(" "), _c("td", [_vm._v("$86,500")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Shad Decker")]), _vm._v(" "), _c("td", [_vm._v("Regional Director")]), _vm._v(" "), _c("td", [_vm._v("Edinburgh")]), _vm._v(" "), _c("td", [_vm._v("51")]), _vm._v(" "), _c("td", [_vm._v("2008/11/13")]), _vm._v(" "), _c("td", [_vm._v("$183,000")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Michael Bruce")]), _vm._v(" "), _c("td", [_vm._v("Javascript Developer")]), _vm._v(" "), _c("td", [_vm._v("Singapore")]), _vm._v(" "), _c("td", [_vm._v("29")]), _vm._v(" "), _c("td", [_vm._v("2011/06/27")]), _vm._v(" "), _c("td", [_vm._v("$183,000")])]), _vm._v(" "), _c("tr", [_c("td", [_vm._v("Donna Snider")]), _vm._v(" "), _c("td", [_vm._v("Customer Support")]), _vm._v(" "), _c("td", [_vm._v("New York")]), _vm._v(" "), _c("td", [_vm._v("27")]), _vm._v(" "), _c("td", [_vm._v("2011/01/25")]), _vm._v(" "), _c("td", [_vm._v("$112,000")])])])])])])])]);
+  }, [_vm._v("Action")]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Another action")]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Something else here")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "c-chart-wrapper mt-3 mx-3",
+    staticStyle: {
+      height: "70px"
+    }
+  }, [_c("canvas", {
+    staticClass: "chart",
+    attrs: {
+      id: "card-chart1",
+      height: "70"
+    }
+  })]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "dropdown-menu dropdown-menu-end"
+  }, [_c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Action")]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Another action")]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Something else here")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "c-chart-wrapper mt-3 mx-3",
+    staticStyle: {
+      height: "70px"
+    }
+  }, [_c("canvas", {
+    staticClass: "chart",
+    attrs: {
+      id: "card-chart2",
+      height: "70"
+    }
+  })]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "dropdown-menu dropdown-menu-end"
+  }, [_c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Action")]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Another action")]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Something else here")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "c-chart-wrapper mt-3",
+    staticStyle: {
+      height: "70px"
+    }
+  }, [_c("canvas", {
+    staticClass: "chart",
+    attrs: {
+      id: "card-chart3",
+      height: "70"
+    }
+  })]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "dropdown-menu dropdown-menu-end"
+  }, [_c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Action")]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Another action")]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Something else here")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "c-chart-wrapper mt-3 mx-3",
+    staticStyle: {
+      height: "70px"
+    }
+  }, [_c("canvas", {
+    staticClass: "chart",
+    attrs: {
+      id: "card-chart4",
+      height: "70"
+    }
+  })]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", [_c("h4", {
+    staticClass: "card-title mb-0"
+  }, [_vm._v("Traffic")]), _vm._v(" "), _c("div", {
+    staticClass: "small text-medium-emphasis"
+  }, [_vm._v("January - July 2022")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "btn-group btn-group-toggle mx-3",
+    attrs: {
+      "data-coreui-toggle": "buttons"
+    }
+  }, [_c("input", {
+    staticClass: "btn-check",
+    attrs: {
+      id: "option1",
+      type: "radio",
+      name: "options",
+      autocomplete: "off"
+    }
+  }), _vm._v(" "), _c("label", {
+    staticClass: "btn btn-outline-secondary"
+  }, [_vm._v(" Day")]), _vm._v(" "), _c("input", {
+    staticClass: "btn-check",
+    attrs: {
+      id: "option2",
+      type: "radio",
+      name: "options",
+      autocomplete: "off",
+      checked: ""
+    }
+  }), _vm._v(" "), _c("label", {
+    staticClass: "btn btn-outline-secondary active"
+  }, [_vm._v(" Month")]), _vm._v(" "), _c("input", {
+    staticClass: "btn-check",
+    attrs: {
+      id: "option3",
+      type: "radio",
+      name: "options",
+      autocomplete: "off"
+    }
+  }), _vm._v(" "), _c("label", {
+    staticClass: "btn btn-outline-secondary"
+  }, [_vm._v(" Year")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "c-chart-wrapper",
+    staticStyle: {
+      height: "300px",
+      "margin-top": "40px"
+    }
+  }, [_c("canvas", {
+    staticClass: "chart",
+    attrs: {
+      id: "main-chart",
+      height: "300"
+    }
+  })]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "card-footer"
+  }, [_c("div", {
+    staticClass: "row row-cols-1 row-cols-md-5 text-center"
+  }, [_c("div", {
+    staticClass: "col mb-sm-2 mb-0"
+  }, [_c("div", {
+    staticClass: "text-medium-emphasis"
+  }, [_vm._v("Visits")]), _vm._v(" "), _c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("29.703 Users (40%)")]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin mt-2"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-success",
+    staticStyle: {
+      width: "40%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "40",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])]), _vm._v(" "), _c("div", {
+    staticClass: "col mb-sm-2 mb-0"
+  }, [_c("div", {
+    staticClass: "text-medium-emphasis"
+  }, [_vm._v("Unique")]), _vm._v(" "), _c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("24.093 Users (20%)")]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin mt-2"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-info",
+    staticStyle: {
+      width: "20%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "20",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])]), _vm._v(" "), _c("div", {
+    staticClass: "col mb-sm-2 mb-0"
+  }, [_c("div", {
+    staticClass: "text-medium-emphasis"
+  }, [_vm._v("Pageviews")]), _vm._v(" "), _c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("78.706 Views (60%)")]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin mt-2"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-warning",
+    staticStyle: {
+      width: "60%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "60",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])]), _vm._v(" "), _c("div", {
+    staticClass: "col mb-sm-2 mb-0"
+  }, [_c("div", {
+    staticClass: "text-medium-emphasis"
+  }, [_vm._v("New Users")]), _vm._v(" "), _c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("22.123 Users (80%)")]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin mt-2"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-danger",
+    staticStyle: {
+      width: "80%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "80",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])]), _vm._v(" "), _c("div", {
+    staticClass: "col mb-sm-2 mb-0"
+  }, [_c("div", {
+    staticClass: "text-medium-emphasis"
+  }, [_vm._v("Bounce Rate")]), _vm._v(" "), _c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("40.15%")]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin mt-2"
+  }, [_c("div", {
+    staticClass: "progress-bar",
+    staticStyle: {
+      width: "40%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "40",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])])])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "chart-wrapper position-absolute top-0 start-0 w-100 h-100"
+  }, [_c("canvas", {
+    attrs: {
+      id: "social-box-chart-1",
+      height: "90"
+    }
+  })]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "card-body row text-center"
+  }, [_c("div", {
+    staticClass: "col"
+  }, [_c("div", {
+    staticClass: "fs-5 fw-semibold"
+  }, [_vm._v("89k")]), _vm._v(" "), _c("div", {
+    staticClass: "text-uppercase text-medium-emphasis small"
+  }, [_vm._v("friends")])]), _vm._v(" "), _c("div", {
+    staticClass: "vr"
+  }), _vm._v(" "), _c("div", {
+    staticClass: "col"
+  }, [_c("div", {
+    staticClass: "fs-5 fw-semibold"
+  }, [_vm._v("459")]), _vm._v(" "), _c("div", {
+    staticClass: "text-uppercase text-medium-emphasis small"
+  }, [_vm._v("feeds")])])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "chart-wrapper position-absolute top-0 start-0 w-100 h-100"
+  }, [_c("canvas", {
+    attrs: {
+      id: "social-box-chart-2",
+      height: "90"
+    }
+  })]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "card-body row text-center"
+  }, [_c("div", {
+    staticClass: "col"
+  }, [_c("div", {
+    staticClass: "fs-5 fw-semibold"
+  }, [_vm._v("973k")]), _vm._v(" "), _c("div", {
+    staticClass: "text-uppercase text-medium-emphasis small"
+  }, [_vm._v("followers")])]), _vm._v(" "), _c("div", {
+    staticClass: "vr"
+  }), _vm._v(" "), _c("div", {
+    staticClass: "col"
+  }, [_c("div", {
+    staticClass: "fs-5 fw-semibold"
+  }, [_vm._v("1.792")]), _vm._v(" "), _c("div", {
+    staticClass: "text-uppercase text-medium-emphasis small"
+  }, [_vm._v("tweets")])])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "chart-wrapper position-absolute top-0 start-0 w-100 h-100"
+  }, [_c("canvas", {
+    attrs: {
+      id: "social-box-chart-3",
+      height: "90"
+    }
+  })]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "card-body row text-center"
+  }, [_c("div", {
+    staticClass: "col"
+  }, [_c("div", {
+    staticClass: "fs-5 fw-semibold"
+  }, [_vm._v("500+")]), _vm._v(" "), _c("div", {
+    staticClass: "text-uppercase text-medium-emphasis small"
+  }, [_vm._v("contacts")])]), _vm._v(" "), _c("div", {
+    staticClass: "vr"
+  }), _vm._v(" "), _c("div", {
+    staticClass: "col"
+  }, [_c("div", {
+    staticClass: "fs-5 fw-semibold"
+  }, [_vm._v("292")]), _vm._v(" "), _c("div", {
+    staticClass: "text-uppercase text-medium-emphasis small"
+  }, [_vm._v("feeds")])])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "col-sm-6"
+  }, [_c("div", {
+    staticClass: "row"
+  }, [_c("div", {
+    staticClass: "col-6"
+  }, [_c("div", {
+    staticClass: "border-start border-start-4 border-start-info px-3 mb-3"
+  }, [_c("small", {
+    staticClass: "text-medium-emphasis"
+  }, [_vm._v("New Clients")]), _vm._v(" "), _c("div", {
+    staticClass: "fs-5 fw-semibold"
+  }, [_vm._v("9.123")])])]), _vm._v(" "), _c("div", {
+    staticClass: "col-6"
+  }, [_c("div", {
+    staticClass: "border-start border-start-4 border-start-danger px-3 mb-3"
+  }, [_c("small", {
+    staticClass: "text-medium-emphasis"
+  }, [_vm._v("Recuring Clients")]), _vm._v(" "), _c("div", {
+    staticClass: "fs-5 fw-semibold"
+  }, [_vm._v("22.643")])])])]), _vm._v(" "), _c("hr", {
+    staticClass: "mt-0"
+  }), _vm._v(" "), _c("div", {
+    staticClass: "progress-group mb-4"
+  }, [_c("div", {
+    staticClass: "progress-group-prepend"
+  }, [_c("span", {
+    staticClass: "text-medium-emphasis small"
+  }, [_vm._v("Monday")])]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group-bars"
+  }, [_c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-info",
+    staticStyle: {
+      width: "34%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "34",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-danger",
+    staticStyle: {
+      width: "78%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "78",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])])]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group mb-4"
+  }, [_c("div", {
+    staticClass: "progress-group-prepend"
+  }, [_c("span", {
+    staticClass: "text-medium-emphasis small"
+  }, [_vm._v("Tuesday")])]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group-bars"
+  }, [_c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-info",
+    staticStyle: {
+      width: "56%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "56",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-danger",
+    staticStyle: {
+      width: "94%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "94",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])])]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group mb-4"
+  }, [_c("div", {
+    staticClass: "progress-group-prepend"
+  }, [_c("span", {
+    staticClass: "text-medium-emphasis small"
+  }, [_vm._v("Wednesday")])]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group-bars"
+  }, [_c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-info",
+    staticStyle: {
+      width: "12%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "12",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-danger",
+    staticStyle: {
+      width: "67%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "67",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])])]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group mb-4"
+  }, [_c("div", {
+    staticClass: "progress-group-prepend"
+  }, [_c("span", {
+    staticClass: "text-medium-emphasis small"
+  }, [_vm._v("Thursday")])]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group-bars"
+  }, [_c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-info",
+    staticStyle: {
+      width: "43%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "43",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-danger",
+    staticStyle: {
+      width: "91%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "91",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])])]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group mb-4"
+  }, [_c("div", {
+    staticClass: "progress-group-prepend"
+  }, [_c("span", {
+    staticClass: "text-medium-emphasis small"
+  }, [_vm._v("Friday")])]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group-bars"
+  }, [_c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-info",
+    staticStyle: {
+      width: "22%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "22",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-danger",
+    staticStyle: {
+      width: "73%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "73",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])])]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group mb-4"
+  }, [_c("div", {
+    staticClass: "progress-group-prepend"
+  }, [_c("span", {
+    staticClass: "text-medium-emphasis small"
+  }, [_vm._v("Saturday")])]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group-bars"
+  }, [_c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-info",
+    staticStyle: {
+      width: "53%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "53",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-danger",
+    staticStyle: {
+      width: "82%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "82",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])])]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group mb-4"
+  }, [_c("div", {
+    staticClass: "progress-group-prepend"
+  }, [_c("span", {
+    staticClass: "text-medium-emphasis small"
+  }, [_vm._v("Sunday")])]), _vm._v(" "), _c("div", {
+    staticClass: "progress-group-bars"
+  }, [_c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-info",
+    staticStyle: {
+      width: "9%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "9",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-danger",
+    staticStyle: {
+      width: "69%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "69",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])])])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "row"
+  }, [_c("div", {
+    staticClass: "col-6"
+  }, [_c("div", {
+    staticClass: "border-start border-start-4 border-start-warning px-3 mb-3"
+  }, [_c("small", {
+    staticClass: "text-medium-emphasis"
+  }, [_vm._v("Pageviews")]), _vm._v(" "), _c("div", {
+    staticClass: "fs-5 fw-semibold"
+  }, [_vm._v("78.623")])])]), _vm._v(" "), _c("div", {
+    staticClass: "col-6"
+  }, [_c("div", {
+    staticClass: "border-start border-start-4 border-start-success px-3 mb-3"
+  }, [_c("small", {
+    staticClass: "text-medium-emphasis"
+  }, [_vm._v("Organic")]), _vm._v(" "), _c("div", {
+    staticClass: "fs-5 fw-semibold"
+  }, [_vm._v("49.123")])])])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "progress-group-bars"
+  }, [_c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-warning",
+    staticStyle: {
+      width: "43%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "43",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "progress-group-bars"
+  }, [_c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-warning",
+    staticStyle: {
+      width: "43%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "43",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "progress-group-bars"
+  }, [_c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-success",
+    staticStyle: {
+      width: "56%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "56",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "progress-group-bars"
+  }, [_c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-success",
+    staticStyle: {
+      width: "15%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "15",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "progress-group-bars"
+  }, [_c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-success",
+    staticStyle: {
+      width: "11%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "11",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "progress-group-bars"
+  }, [_c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-success",
+    staticStyle: {
+      width: "8%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "8",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", {
+    staticClass: "text-center"
+  }, [_c("div", {
+    staticClass: "avatar avatar-md"
+  }, [_c("img", {
+    staticClass: "avatar-img",
+    attrs: {
+      src: "assets/img/avatars/1.jpg",
+      alt: "user@email.com"
+    }
+  }), _c("span", {
+    staticClass: "avatar-status bg-success"
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", [_vm._v("Yiorgos Avraamu")]), _vm._v(" "), _c("div", {
+    staticClass: "small text-medium-emphasis"
+  }, [_c("span", [_vm._v("New")]), _vm._v(" | Registered: Jan 1, 2020")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", {
+    staticClass: "clearfix"
+  }, [_c("div", {
+    staticClass: "float-start"
+  }, [_c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("50%")])]), _vm._v(" "), _c("div", {
+    staticClass: "float-end"
+  }, [_c("small", {
+    staticClass: "text-medium-emphasis"
+  }, [_vm._v("Jun 11, 2020 - Jul 10, 2020")])])]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-success",
+    staticStyle: {
+      width: "50%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "50",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", {
+    staticClass: "small text-medium-emphasis"
+  }, [_vm._v("Last login")]), _vm._v(" "), _c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("10 sec ago")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "dropdown-menu dropdown-menu-end"
+  }, [_c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Info")]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Edit")]), _c("a", {
+    staticClass: "dropdown-item text-danger",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Delete")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", {
+    staticClass: "text-center"
+  }, [_c("div", {
+    staticClass: "avatar avatar-md"
+  }, [_c("img", {
+    staticClass: "avatar-img",
+    attrs: {
+      src: "assets/img/avatars/2.jpg",
+      alt: "user@email.com"
+    }
+  }), _c("span", {
+    staticClass: "avatar-status bg-danger"
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", [_vm._v("Avram Tarasios")]), _vm._v(" "), _c("div", {
+    staticClass: "small text-medium-emphasis"
+  }, [_c("span", [_vm._v("Recurring")]), _vm._v(" | Registered: Jan 1, 2020")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", {
+    staticClass: "clearfix"
+  }, [_c("div", {
+    staticClass: "float-start"
+  }, [_c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("10%")])]), _vm._v(" "), _c("div", {
+    staticClass: "float-end"
+  }, [_c("small", {
+    staticClass: "text-medium-emphasis"
+  }, [_vm._v("Jun 11, 2020 - Jul 10, 2020")])])]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-info",
+    staticStyle: {
+      width: "10%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "10",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", {
+    staticClass: "small text-medium-emphasis"
+  }, [_vm._v("Last login")]), _vm._v(" "), _c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("5 minutes ago")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "dropdown-menu dropdown-menu-end"
+  }, [_c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Info")]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Edit")]), _c("a", {
+    staticClass: "dropdown-item text-danger",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Delete")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", {
+    staticClass: "text-center"
+  }, [_c("div", {
+    staticClass: "avatar avatar-md"
+  }, [_c("img", {
+    staticClass: "avatar-img",
+    attrs: {
+      src: "assets/img/avatars/3.jpg",
+      alt: "user@email.com"
+    }
+  }), _c("span", {
+    staticClass: "avatar-status bg-warning"
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", [_vm._v("Quintin Ed")]), _vm._v(" "), _c("div", {
+    staticClass: "small text-medium-emphasis"
+  }, [_c("span", [_vm._v("New")]), _vm._v(" | Registered: Jan 1, 2020")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", {
+    staticClass: "clearfix"
+  }, [_c("div", {
+    staticClass: "float-start"
+  }, [_c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("74%")])]), _vm._v(" "), _c("div", {
+    staticClass: "float-end"
+  }, [_c("small", {
+    staticClass: "text-medium-emphasis"
+  }, [_vm._v("Jun 11, 2020 - Jul 10, 2020")])])]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-warning",
+    staticStyle: {
+      width: "74%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "74",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", {
+    staticClass: "small text-medium-emphasis"
+  }, [_vm._v("Last login")]), _vm._v(" "), _c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("1 hour ago")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "dropdown-menu dropdown-menu-end"
+  }, [_c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Info")]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Edit")]), _c("a", {
+    staticClass: "dropdown-item text-danger",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Delete")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", {
+    staticClass: "text-center"
+  }, [_c("div", {
+    staticClass: "avatar avatar-md"
+  }, [_c("img", {
+    staticClass: "avatar-img",
+    attrs: {
+      src: "assets/img/avatars/4.jpg",
+      alt: "user@email.com"
+    }
+  }), _c("span", {
+    staticClass: "avatar-status bg-secondary"
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", [_vm._v("Enéas Kwadwo")]), _vm._v(" "), _c("div", {
+    staticClass: "small text-medium-emphasis"
+  }, [_c("span", [_vm._v("New")]), _vm._v(" | Registered: Jan 1, 2020")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", {
+    staticClass: "clearfix"
+  }, [_c("div", {
+    staticClass: "float-start"
+  }, [_c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("98%")])]), _vm._v(" "), _c("div", {
+    staticClass: "float-end"
+  }, [_c("small", {
+    staticClass: "text-medium-emphasis"
+  }, [_vm._v("Jun 11, 2020 - Jul 10, 2020")])])]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-danger",
+    staticStyle: {
+      width: "98%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "98",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", {
+    staticClass: "small text-medium-emphasis"
+  }, [_vm._v("Last login")]), _vm._v(" "), _c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("Last month")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "dropdown-menu dropdown-menu-end"
+  }, [_c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Info")]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Edit")]), _c("a", {
+    staticClass: "dropdown-item text-danger",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Delete")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", {
+    staticClass: "text-center"
+  }, [_c("div", {
+    staticClass: "avatar avatar-md"
+  }, [_c("img", {
+    staticClass: "avatar-img",
+    attrs: {
+      src: "assets/img/avatars/5.jpg",
+      alt: "user@email.com"
+    }
+  }), _c("span", {
+    staticClass: "avatar-status bg-success"
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", [_vm._v("Agapetus Tadeáš")]), _vm._v(" "), _c("div", {
+    staticClass: "small text-medium-emphasis"
+  }, [_c("span", [_vm._v("New")]), _vm._v(" | Registered: Jan 1, 2020")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", {
+    staticClass: "clearfix"
+  }, [_c("div", {
+    staticClass: "float-start"
+  }, [_c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("22%")])]), _vm._v(" "), _c("div", {
+    staticClass: "float-end"
+  }, [_c("small", {
+    staticClass: "text-medium-emphasis"
+  }, [_vm._v("Jun 11, 2020 - Jul 10, 2020")])])]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-info",
+    staticStyle: {
+      width: "22%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "22",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", {
+    staticClass: "small text-medium-emphasis"
+  }, [_vm._v("Last login")]), _vm._v(" "), _c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("Last week")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "dropdown-menu dropdown-menu-end"
+  }, [_c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Info")]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Edit")]), _c("a", {
+    staticClass: "dropdown-item text-danger",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Delete")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", {
+    staticClass: "text-center"
+  }, [_c("div", {
+    staticClass: "avatar avatar-md"
+  }, [_c("img", {
+    staticClass: "avatar-img",
+    attrs: {
+      src: "assets/img/avatars/6.jpg",
+      alt: "user@email.com"
+    }
+  }), _c("span", {
+    staticClass: "avatar-status bg-danger"
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", [_vm._v("Friderik Dávid")]), _vm._v(" "), _c("div", {
+    staticClass: "small text-medium-emphasis"
+  }, [_c("span", [_vm._v("New")]), _vm._v(" | Registered: Jan 1, 2020")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", {
+    staticClass: "clearfix"
+  }, [_c("div", {
+    staticClass: "float-start"
+  }, [_c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("43%")])]), _vm._v(" "), _c("div", {
+    staticClass: "float-end"
+  }, [_c("small", {
+    staticClass: "text-medium-emphasis"
+  }, [_vm._v("Jun 11, 2020 - Jul 10, 2020")])])]), _vm._v(" "), _c("div", {
+    staticClass: "progress progress-thin"
+  }, [_c("div", {
+    staticClass: "progress-bar bg-success",
+    staticStyle: {
+      width: "43%"
+    },
+    attrs: {
+      role: "progressbar",
+      "aria-valuenow": "43",
+      "aria-valuemin": "0",
+      "aria-valuemax": "100"
+    }
+  })])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", [_c("div", {
+    staticClass: "small text-medium-emphasis"
+  }, [_vm._v("Last login")]), _vm._v(" "), _c("div", {
+    staticClass: "fw-semibold"
+  }, [_vm._v("Yesterday")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    staticClass: "dropdown-menu dropdown-menu-end"
+  }, [_c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Info")]), _c("a", {
+    staticClass: "dropdown-item",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Edit")]), _c("a", {
+    staticClass: "dropdown-item text-danger",
+    attrs: {
+      href: "#"
+    }
+  }, [_vm._v("Delete")])]);
 }];
 render._withStripped = true;
 
